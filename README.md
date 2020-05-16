@@ -4,6 +4,8 @@ XDA Thread Template and Some other stuff
 Getting Started
 ==================================================
 
+<img src="https://i.imgur.com/urc7KCpr.png"> 
+
 How to build ExtendedReborn ROM for your device - Tutorial
 --------
 
@@ -100,7 +102,7 @@ How to build ExtendedReborn ROM for your device - Tutorial
 - Follow the AOSP Porting Instructions stated here to prepare the proprietary files for building for your device: (http://xda-university.com/as-a-developer/porting-aosp-roms-using-source-code)
 
 ##### Setting Up CCache
-- CCache is a method of utilizing a specified storage space to speed up building. It can be referred to as the same caching your android device does to speed up application and system boot times. In this case, CCache will help build CesiumOS faster than standard build times (Able to cut-down 50% of time taken to build).
+- CCache is a method of utilizing a specified storage space to speed up building. It can be referred to as the same caching your android device does to speed up application and system boot times. In this case, CCache will help build ExtendedReborn faster than standard build times (Able to cut-down 50% of time taken to build).
 - To set up CCache, follow the following:
 
 ```bash
@@ -146,14 +148,14 @@ OR
 -----------------------------------------	
 Getting Official Maintainership for ExtendedReborn
 ==========================================
->> To get Official Maintainership for ExtendedReborn you should have a stable device source with all the main components working. Read the Charter.mkdn in this repository to get a clearer idea.
+>> To get Official Maintainership for ExtendedReborn you should have a stable device source with all the main components working. Read the [**charter**](https://github.com/ExtendedReborn/Reborn_Documentation/blob/reborn/Charter.mkdn) to get a clearer idea.
 
->> First make an unofficial build of ExtendedReborn and post in [**XDA**](xda-developers.com). Make sure you use the template here! Click on the raw button and change the links up where ever required.
+>> First make an unofficial build of ExtendedReborn and post in [**XDA**](https://xda-developers.com). Make sure you use the template here! Click on the raw button and change the links up where ever required.
 
->> Then, Ping us on Telegram :- [**AshutoshSundresh**](https://t.me/AshutoshSundresh) 
+>> Then, Ping us on Telegram :- [**ExtendedRebornChat**](https://t.me/extendedrebornchat) 
 
->> Join our [**Telegram Channel**](https://t.me/extendedrebornchannel) and our  [**Telegram group**](https://t.me/extendedrebornchannel)
+>> Join our [**Telegram Channel**](https://t.me/extendedrebornchannel) and our  [**Telegram group**](https://t.me/extendedrebornchat)
 
->> To publish builds use our Template : [**ExtendedReborn XDA Template**](https://github.com/ExtendedReborn/Reborn_Documentation/Template.txt)
+>> To publish builds use our Template : [**ExtendedReborn XDA Template**](https://github.com/ExtendedReborn/Reborn_Documentation/blob/reborn/Template.txt)
 
 ----------------------------
