@@ -1,0 +1,86 @@
+Title: [ROM][10.0.0_r45][UNOFFICIAL][STABLE] ShapeShiftOS [DEVICE_CODENAME]
+
+-----------------------------------------------------------------------------
+
+[CENTER][img]https://i.imgur.com/CJiO8Bk.png[/img]
+
+
+[CODE]/*
+ * Your warranty is now void.
+ *
+ * I am not responsible for bricked devices, dead SD cards,
+ * thermonuclear war, or you getting fired because the alarm app failed. Please
+ * do some research if you have any concerns about features included in this ROM
+ * before flashing it! YOU are choosing to make these modifications, and if
+ * you point the finger at me for messing up your device, I will laugh at you.
+ */[/CODE]
+
+[SIZE="3"][B]
+Read the whole OP! Be respectful to each other and don't ask for ETAs, it's considered as being rude![/B][/SIZE]
+
+
+[B][SIZE="4"][COLOR="Black"]
+ShapeShiftOS is a custom-rom based on ExtendedUI that aims to provide a different user interface and experience than any other ROM on the market.
+
+Also, we got our [URL="http://t.me/shapeshiftoschannel"]Telegram[/URL] channel you can find here updates about the ROM, screenshots and more.[/COLOR][/SIZE][/B]
+
+[img]https://i.imgur.com/v0CAvNp.png[/img]
+
+[B][SIZE="4"]Here are the features on top of Pixel Experience! We aim to add important features that we think should be here and also what you think. For the addition of more tweaks or features, head on to our Telegram community and post the list of features that you want! Features with commits will be more helpful![/SIZE][/B]
+
+
+[CODE][B]
+- Refined UI by cfdddd (00day/00day0)
+- Prebuilt Lawnchair
+- Face Unlock for Official Devices
+- R Style Notification Headers
+- Several optimizations for a faster User Interface
+- Android Auto working
+- Notification Log is exposed natively
+- Per-app cellular data, VPN and Wifi restrictions
+- GApps included
+- Ambient edge lighting
+- FOD icon picker
+- FOD Animations
+- Blur UI and lots of other touches from MIUI like Brightness Slider and Volume Bar
+- Some OneUI inspired touches.
+- Double-tap to sleep on statusbar / lockscreeen
+- Smart replies toggle
+- Battery charging light customizations
+- Notification snooze function
+- Navigation bar customizations
+- Lockscreen shortcuts customizations
+- Configurable amount of screen height used for gestures
+[/CODE][/B]
+
+[img]https://i.imgur.com/oMz7G2n.png[/img]
+
+[SIZE="4"][B][U][COLOR="DeepSkyBlue"]
+Download ROM here for your device![/COLOR][/U][/B][/SIZE]
+
+[color=navy][URL="Put the link here"][COLOR="RoyalBlue"][SIZE="3"][B]DOWNLOAD[/B][/SIZE][/COLOR] [/URL][/color]
+
+[img]https://i.imgur.com/8pYDk8Z.png[/img]
+
+[B][SIZE="4"]Want to try this awesomeness?[/SIZE][/B]
+
+[CODE][b]Write the instructions for your device here[/b][/CODE]
+
+[img]https://i.imgur.com/Bgj5RHog.png[/img]
+
+
+[B][SIZE="4"]People behind this amazing ROM![/SIZE][/B]
+
+[B][SIZE="4"]
+- ExtendedUI
+- PixelExperience
+- LineageOS
+- OmniROM
+- POSP
+- Havoc-OS[/SIZE][/B]
+
+[color=navy][URL="Put your kernel source here"][COLOR="RoyalBlue"][SIZE="3"][B]Kernel Source[/B][/SIZE][/COLOR] [/URL][/color]
+
+//Thread template designed by MezzLasha and [MENTION=7730292]Ashutosh Sundresh[/MENTION]//
+
+[/CENTER]

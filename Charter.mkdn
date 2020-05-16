@@ -1,0 +1,63 @@
+# Maintainer Rules for ShapeShiftOS
+
+This set of rules are required to be considered before applying for maintainership for ShapeShiftOS. Please, take the time to read them before applying.
+
+### Device trees
+
+- **All the trees should be posted and public on Github/Gitlab.** At the time of applying, we compare them with different other repos from other developers/projects to check if things like authorship and commit history are on point. 
+- **Sources should not have more than 3 (three) branches with other Custom ROM projects.** As we like to have people building and sharing the great work of other projects, we need dedicated people who might want to test some new things or check if everything is on point, not buildbots who are constantly making 69 builds for the sake of a developer title.
+- **Respect authorship and make your forks.** Having your custom device tree guarantees that if something is broken, you can fix it fast. Dumb thing to clarify at this point. So, it's better if you do your forks with the whole adapting to our ROM instead of linking us some Lineage/Other developer trees (the only exception to this rule is kernel/vendor trees that requires little to no changes most of the time) that you used to build. Also, sources without proper commit authorship or "Initial commit" (the 1 commit magic device tree) sources will be completely ignored.
+- **The private trees rule:** Private trees are accepted but with the limit of 1 (one) months since the maintainer application is accepted. A private tree is tolerated if the device is having a lot of bugs and it needs some big changes to make it stable. If it's private to the sake of being private or "I don't want buildbot to leech me" then after the month, your device will be dropped.
+- **Furthermore**, ensure you properly read the Charter as well so that you are aware of what is expected from you.
+- **You must maintain your own trees.** Taking someone else's tree and adding a ShapeShift-ify commit which only affects ROM branding makefiles will lead to an immediate reject. If your own trees aren't compatible with the source, you are welcome to make the required changes to the source and pull request them (please read the bottom of the Charter for more information). If you do not maintain your own trees, please come back later.
+
+If any questions, let us know on [our telegram chat](https://t.me/shapeshiftoschat). You can also request to get in contact with the admins here so that you can actually drop your maintainership application which should include the following:
+- **Device, Common, Vendor, Kernel and any other extra trees you need.**
+- **Your Sourceforge and GitHub account usernames.**
+- **Device bugs.**
+- **XDA Thread** (If any).
+- **How long you have been maintaining.**
+ 
+Other information required would be directly asked to you. Please do not spam the admins. They will take some time to check your trees and interact with other members on the team about your application.
+
+Before you apply to add your device into our list of official devices, you should know a few things:
+
+**Any failure in following the instructions given below will make you unfit for the maintainership. No questions asked.**
+
+1 - You must own the device. Blind and untested builds aren't allowed. Devices that have minimal hardware difference from yours are allowed to be maintained, as long as you maintain your own device too.
+
+2 - The maintainer must know how to use Git correctly. This includes but is not limited to amending commits, rebasing commits, cloning repos, pushing commits/repos, merging and pulling commits accordingly.
+
+3 - You must create and maintain an unofficial build for at least 1 week, make sure that the build is stable for daily usage before applying. The context of stability may differ for different devices, so explain regarding any exceptions.
+
+4 - You must have your device sources available publicly with proper authorship for each commit.
+
+5 - You must show the **real** device sources being used.
+
+6 - Your device must be in accordance with the Device Requirements below. 
+
+7 - The maintainer must write clear and descriptive commit messages with both normal commits and reverts, documenting exactly what they are changing and why.
+
+# Device Requirements
+
+- The device may have SELinux Enforcing to release builds.
+
+- The device must have complete hardware compatibility corresponding to the stock ROM, i.e. if IR blaster works on the stock ROM, it must work on ShapeShiftOS. Only VoLTE is allowed to be ignored, so are NFC payment methods.
+
+- The device must pass SafetyNet out of the box, without any 3rd part mods. If any device's stock build fingerprint works to bypass SafetyNet, those must take preference, even though that custom fingerprints (e.g. Pixels Build fingerprints) aren't restricted to be used.
+
+- The device must not include any unused overlays and packages. This includes, but is not limited to, packages not being built, packages that don't work, obsolete packages, placebo 'tweaks' or any packages that will include unnecessary and/or unwanted features.
+
+- If the device has Full Disk Encryption (a.k.a FDE) mustn't ship/build the Google Play System Updates/Updatable APEX, as the same only works on devices that have File-Base Encryption (FBE) with the device encrypted. The same is applicable for kernel 3.18 or devices with older kernel versions.
+
+- The device mustn't have the need for a lot of patches, and if so, it must be in accordance with the following listing below.
+
+- The device's kernel must be up to date with the latest patches from [kernel.org](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/). If you are unsure of how to do this, check out [android-linux-stable](https://github.com/android-linux-stable) or contact [Nathan Chancellor](https://nathanchance.me).
+
+- If there are commits that are needed in repos other than the device-specific ones, they must:
+
+  - Be necessary for the device to build, boot, or even to have a device function working properly (e.g. Fingerprint On Display).
+
+  - Have proper authorship.
+  
+  - Be as minimal and polished as possible.

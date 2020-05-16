@@ -1,0 +1,118 @@
+# Preparing ShapeShiftOS ROM for devices
+- For building ShapeShiftOS for your device, ensure that your trees can successfully build PixelExperience for Android 10. For Android 11, we have moved to an AOSP base and the lunch target is lunch ssos_devicecodename. Of course, we do require some additional overlays in your tree to make the best out of ShapeShiftOS.
+# Notch hiding
+
+If you have a device with a notch, add this to your overlay's overlay/frameworks/base/core/res/res/values/config.xml:
+>>     <!-- Whether device has a physical display cutout -->
+>>     <bool name="config_physicalDisplayCutout">true</bool>
+
+# Smart Pixels and burnin protection
+
+If your device has an AMOLED screen, add this to your overlays overlay/frameworks/base/core/res/res/values/config.xml:
+>>      <!-- Whether the device supports Smart Pixels -->
+>>      <bool name="config_enableSmartPixels">true</bool>    
+>>
+>>       <!-- If true, the display will be shifted around in ambient mode. -->
+>>       <bool name="config_enableBurnInProtection">true</bool>
+# FOD
+
+We use PE's FOD implementation. Check this device tree if you want any [**reference**](https://github.com/Ashutosh-s-Test-Dumpster/device_oneplus_fajita/tree/backup)
+
+# Dash Charging
+
+If your device supports Dash Charging, add this to your overlays overlay/frameworks/base/core/res/res/values/config.xml:
+
+>>        <!-- Whether device has dash charging support -->
+>>        <bool name="config_hasDashCharger">true</bool>
+# Touch
+
+If your device supports Lineage Touch HALs, we request you to add them on. You can check LineageOS trees for your device to get started.
+Note: You also have to set Keyhandler class to com.android.touch.gestures.KeyHandler and it is recommended to utilise TouchGestures app instead of having in-tree fragment.
+
+# About us info
+
+In ShapeShiftOS, maintainers can show important device specific links to users such as firmware and recovery as well as their name and contact url in the about us page.
+
+To find out the overlays needed for this, take a look [**here**](
+https://github.com/ShapeShiftOS-Devices/device_oneplus_fajita/commit/12103b07d3681d7acecca23f73cb6b7408117b32)
+# Launchers
+
+We have a variable system allowing maintainers to use the launcher they wish. OnePlus is the default, with options to choose Lawnchair, OneUI as well as Pixel Launcher.
+
+
+#### Choosing Lawnchair Launcher
+>>          TARGET_LAUNCHER_CHOICE := lawnchair
+
+#### Choosing Pixel Launcher
+>>          TARGET_LAUNCHER_CHOICE := pixel
+
+#### Choosing OneUI Launcher
+>>          TARGET_LAUNCHER_CHOICE := oneui
+
+
+# Battery Health
+
+To see battery health in battery section, add this to your overlays overlay/packages/apps/Settings/res/values/config.xml:
+
+>>          <!-- Battery Health -->
+>>          <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
+>>          <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full</string>
+>>          <string name="config_batCurCap">/sys/class/power_supply/bms/charge_now_raw</string>
+>>          <bool name="config_supportBatteryHealth">true</bool>
+
+Then, in sepolicy/vendor/system_app.te
+
+>>       allow system_app sysfs_battery_supply:dir { search };
+>>       allow system_app sysfs_battery_supply:file { read };
+>>       allow system_app sysfs_battery_supply:file { open };
+>>       allow system_app sysfs_battery_supply:file { getattr };
+
+# Pixel Live Wallpapers
+
+To get PixelLiveWallpaper, add this to aosp_device.mk
+
+>>       TARGET_PIXEL_LWP := true
+
+# OOS Screen Recorder 
+
+To get OOS ScreenRecorder, add this to aosp_device.mk
+
+>>       TARGET_OOS_RECORDER := true
+
+# Smart charging
+
+Oh boy this is a big one
+
+This overlay is required to make Smart Charging feature functioning. These should be in frameworks/base/core/res/res/values/config.xml
+
+
+-------
+    <!-- Smart Charing is available -->
+    <bool name="config_smartChargingAvailable">true</bool>
+
+    <!-- Smart charge sysfs node and value for suspend/resume charging-->
+    <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
+    <string name="config_SmartChargingSuspendValue" translatable="false">1</string>
+    <string name="config_SmartChargingResumeValue" translatable="false">0</string>
+--------
+
+Note: Smart charging config from other ROMs usually won't work as I've corrected the Supspend spelling mistake so adapt accordingly.
+
+For futher reference, you may want to check this [**out**](https://github.com/Ashutosh-s-Test-Dumpster/device_oneplus_sdm845-common/commit/099c01b000de27825ec4724a5c08f633a14b1fa4) for Smart Charging nodes and sepolicy
+
+# Screen off FOD
+
+To get screen off FOD, you first need screen off FOD support in your device tree. There is also an overlay you need to add to your tree.
+
+To overlay/frameworks/base/core/res/res/values/config.xml
+
+>>        <!-- Whether device has screen off FOD support -->
+>>        <bool name="config_supportScreenOffFod">true</bool>
+
+It is also recommended you pick this [**commit**](https://github.com/Ashutosh-s-Test-Dumpster/device_oneplus_fajita/commit/76e287cf71a8dc480764b597bae61f3b87abf999) to remove the "May not be supported on some devices" summary of screen off FOD.
+
+# Minimal Apps
+
+You can use this flag to remove several useless GApps, iconpacks, weather app, lawnchair Google feed and more to save space and reduce the size of your build.
+
+>>        export TARGET_MINIMAL_APPS=true

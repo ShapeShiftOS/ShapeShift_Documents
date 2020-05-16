@@ -1,0 +1,345 @@
+>> Please copy the latest changelog if you are making a release for the newest version of ShapeShiftOS. Also, write down the required device changelog.
+_____________________________________________________________________________________________________________________________
+
+Source Changelog: 
+
+- Prebuilt GApps
+- Some Pixel stuff like lockscreen weather and feature impl in Settings
+- New versioning system
+- QTI BT support
+- BoardConfig --> ProductConfig
+- Permissions Hub
+- Default dark theme is black
+- Default iOS accent
+- Motorola Face unlock
+- Lockscreen charging animation
+- Black/white themed bootanimation
+- FOD support 
+- Heads up tile
+- Custom clocks from 10
+- Extend internal audio recording to all apps
+- Prebuilt smart space, device personalization services, pixel launcher etc.
+- Support for OnePlus vibrator HAL
+- Battery icon in Quicksettings header
+- Legacy apps scale fully to display
+- OOS style switches and QS layout
+- Blurred powermenu background
+- Tons of other bug fixes and improvements over stock Android R
+
+_____________________________________________________________________________________________________________________________
+
+<Please don't copy older changelogs. They are for reference.>
+
+Older Changelogs:
+
+---------------------------------------------------------------------------------------------------------------------
+
+November 2nd: Version 2.0-Unstamble
+
+- Prebuilt GApps
+- Some Pixel stuff like lockscreen weather and feature impl in Settings
+- New versioning system
+- QTI BT support
+- BoardConfig --> ProductConfig
+- Permissions Hub
+- Default dark theme is black
+- Default iOS accent
+- Motorola Face unlock
+- Lockscreen charging animation
+- Black/white themed bootanimation
+- FOD support 
+- Heads up tile
+- Custom clocks from 10
+- Extend internal audio recording to all apps
+- Prebuilt smart space, device personalization services, pixel launcher etc.
+- Support for OnePlus vibrator HAL
+- Battery icon in Quicksettings header
+- Legacy apps scale fully to display
+- OOS style switches and QS layout
+- Blurred powermenu background
+- Tons of other bug fixes and improvements over stock Android R
+
+---------------------------------------------------------------------------------------------------------------------
+
+October 18th: Version 1.2.1-Blaziken
+
+- Add per app notification control for applocker
+- Fix managed accounts with applocker
+- Fix FOD animation sticking after unlocking
+- Prevent FOD pressed state from sticking after unlocking
+
+---------------------------------------------------------------------------------------------------------------------
+
+October 8th: Version 1.2.1-Blaziken
+
+- Add back WPS implementation
+- Add heart icon shape overlay from Android R (lmao)
+- Improvements to Biometric dialog layout for FOD devices and non FOD devices
+- Add face unlock support to biometrics dialog
+- Don't run alert slider UI on screen off
+- Make scheduled nightlight work even when location is turned off
+- PA Applocker
+- 5 new FOD Animations
+- Redesigned FOD pressed effect picker
+- Add support for FOD icon dimming
+- Add support for Warp charging string
+- Add support for wireless powershare
+- Pocketlock improvements for FOD devices
+- Animated pocketlock view
+- Add option to cycle through ringer modes
+- Hide check button when using PIN quick unlock 
+- Option to disable Quick Settings on secure lockscreen
+- Option to swap volume keys based on rotation
+- Option to disable fingerprint vibration on error
+- Battery temperature in BatteryMeter view
+
+---------------------------------------------------------------------------------------------------------------------
+
+September 15th: Version 1.2-Blaziken
+
+- Fix force fingerprint after reboot on FOD devices
+- Update Lawnchair prebuilt
+
+---------------------------------------------------------------------------------------------------------------------
+
+September 12th:
+Version 1.2-Blaziken
+
+- September Security Patch
+- POSP volume styles
+- Reduce alpha of MIUI brightness slider tint
+- More categorization and reorganisation of ShapeShifter and improvements to Theme Engine previews
+- Fix all the broken fonts and duplicated Google Sans Font
+- Redesign OneUI settings header
+- Optional QS layout redesign (WIP- Bad on light theme)
+- Merge CAF surfaceflinger to fix screenrecorder lag, Android Auto flicker on most devices
+- Redesigned QS tiles and settings dashboard icons
+- Completely refactor screen off FOD implementation
+- Redesign settings icon 
+- Changelog in about phone
+- COmpletely refactored about page in ShapeSHifter with useful device specific links 
+- New Realme, ROG and Mi 10 FOD animations
+- Toggle to disable night light on FOD
+- Improve FOD speed with lesser transition animations and hardware acceleration
+- Fix FOD recognition when notch is hidden
+- Optional lockscreen pin ripple, scramble pin, option to hide dots or/and error in pattern, pattern size
+- Improvements to caffeine tile and add usb tethering tile, advanced location tile and screenshot tile
+- Optional screenshot type - Partial, Normal and Long
+- Refresh device hostname on reboot
+- Remove gaming mode (heads up tile)
+- Lockscreen and ambient music visualizer with sanity and colour customization
+- Remove HW button customization for now 
+- Smart charging
+- Toggle to disable battery estimates in QuickSettings
+- Fix MIUI brightness slider breaking AOD and Ambient display on some devices
+- Batterymeter in settings follows statusbar style and has a bolt icon
+- Improve battery health user interface
+- Improve clipboard access toasts
+- Improve colours for all existing primary themes
+- Switch styles with live previews
+- New lockscreen clocks - Fluid, Tux and P404
+- Configurable screenshot delay
+- Switch styles with live previews
+- Alert slider dialogs on OnePLus devices
+- Refactor method to hide black gradient on the top of quicksettings
+- Show arrow keys while typing
+- Replace Google Styles and Wallpapers with AOSP ThemePicker
+- Remove emergency affordance from powermenu
+- Remove settings icon animation in QS footer and long press to launch ShapeShifter
+- Option to disable low battery notifications, disable notifications vibration
+- Increasing ring feature and incall vibration options
+- OOS vibration patterns for all devices
+- Fix OOS clear all notifications colour
+- Settings to clamp minimum auto brightness 
+- Use dark colours for toasts at dark theme and improve animations
+- Support for Lineage Power HIDL HAL
+- Update weather app from OOS R
+- Option to block back gesture on IME space, improvements to gesture handle length, gesture bar thickness and optional gesture IME space
+- OOS back button icon
+- Use O' for type clock and improve padding
+- Improve QS header padding
+- Make lockscreen timeout configurable
+- Allow showing heads up on new music tracks
+- Fix bootloop caused due to GApps permissions
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+August 4th:
+Version 1.1.1-Torchic
+
+- August Security Patch
+- Expanded MIUI volume slider with layout change animations (Work In Progress)
+- Tinted MIUI brightness slider
+- Redesign ConfigCenter and Theme Engine
+- New fonts: Linotte, EvolveSans, FiraSans, SanFrancisco Pro, OnePlus Slate updated, Samsung One
+- Fixed crashes on non-English language
+- Fixed bootloop on non-dynamic partition devices
+- Introduce R style screenrecorder and remove OOS ScreenRecorder (See Docs for more info)
+- Fixes for internal audio recording
+- Screen off FOD fixes
+- Screen off FOD with icon option
+- FOD pressed state customization
+- FOD padding in pinview fixes
+- Make themes refresh without SystemUI restart
+- RGB accent maker
+- Option to change device hostname
+- Gaming mode tile
+- Optional wake on plug
+- Completely redo HW button customization
+- Ambient display battery toggle
+- Theme settings better (No longer is there a black statusbar)
+- Kill button to notification guts
+- Show a toast when app accesses clipboard
+- Support for Dirac
+- Speed up animations and introduce slider for changing animation speed, option to disable animations
+- Lockscreen date styles
+- Cutout force fullscreen options
+- Customize sunrise and sunset values for Nightlight
+- Screen off animations
+- Option to launch default music app on headset connect
+- USAP backports
+- Option to hide statusbar and lock icon in lockscreen
+- Option to hide NFC, datasaver, VPN, roaming and data disabled icons
+- Option to switch to pre P mobile data icons
+- Use better strings, improve layout and remove lag in settings
+- Vastly improve theming with lesser hardcoded colors and more animated preferences
+- Remove settings blur
+- Pixel Experience upstream
+- Redesign some tiles
+- Cleanup overlays
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+July 5th:
+Version 1.1-Gyarados
+
+- Rewrite and fix Dash charging
+- Add FODAnimation Picker with 22 animations to pick from
+- Add 4 new VoLTE icons
+- Allow hiding expanded and ringer under volume panel separately
+- Add config to move volume panel to left
+- Make MIUI Volume slider expanded (Work In Progress)
+- Option to to allow tethering to use VPN upstreams 
+- Add build variable to optionally build OPLauncher
+- Update DataSwitch tile icons from AOSPA
+- Improve accent colours
+- Add Cocon font
+- Properly fix Android Auto
+- Add new icon shapes from Android R
+- Add Coral and Ferrari Red accents
+- Block all apps from seeing location spoofing (For Pokemon Go)
+- Option to force expanded volume panel
+- Remove weather under typeclock
+- Remove manage button under notifications
+- Add option to center R style notification headers
+- Fix VoLTE icon padding
+- Add support for Substratum theme gradients in QS
+- Option for double tap to trigger doze
+- Less boring heads up option
+- Configurable fingerprint detection in pocket mode
+- Statusbar and QS header clock and date customization
+- Option to force expanded notifications
+- New custom clocks: Spectrum, Spidey, Analog with numbers, Center type, LineageOS
+- Settings dashboard icon customization
+- QS blur radius and intensity adjustment
+- Add sound QS tile
+- Show current and new version on APK installation
+- Material icon for OOS Clear all notifications
+- SystemUI restart button in power menu
+- Option to enable and configure intensity of blur behind power menu
+- Live volume steps
+- Misc FOD improvements
+- Bluetooth and Mobile Data panels
+- Battery Health
+- Make notification log search indexable
+- DotOS Style BatteryMeter
+- Tons of theming improvements in Settings
+- Show more information in About Phone
+- Add option to disable/enable SIMs
+- Make ThemePicker a standalone app with improved layout and primary colour support
+- Show overlay name in ThemePicker
+- Improve TouchGestures UI and layout
+- More misc changes and improvements
+- Pixel Experience upstream
+
+----------------------------------------------------------------------------------------------------------------------
+
+June 1st:
+Version 1.0.3-Magikarp
+
+- Rewrite Network Traffic Indicator implementation
+- Rewrite Lawnchair Implementation
+- Rewrite QS Columns and Rows Implementation
+- Fix Lockscreen Display causing a crash
+- Add support for dash charging and warp charging (For maintainers: See bringup help)
+- Remove restrictions for system audio recording in screen recording
+- Update OOS ScreenRecorder to now support internal audio recording
+- Add improved video codecs and switch to use low resolution in AOSP ScreenRecorder
+- Add VoLTE icon picker
+- Improve VoLTE icon padding
+- Add ShapeShift Papers app
+- Address some CTS issues
+- Add show 4G icon instead of LTE
+- Upstream source from Pixel Experience
+
+----------------------------------------------------------------------------------------------------------------------
+
+May 27th:
+Version 1.0.2-Progressive
+
+- Add Lineage Touch HAL Support (Not for all devices)
+- Cleanup ConfigCenter
+- Add Developer Options Insulter and One doesn't simply become a developer
+- Add support to open app from about app page in settings
+
+------------------------------------------------------------------------------------------------------------------------------
+
+May 24th:
+Version 1.0.2-Progressive
+
+- Rebrand from ExtendedReborn to ShapeShiftOS
+- Complete upstream with PixelExperience sources
+- Dynamic blurring in Settings UI
+- Introduce Theme Engine in Customization Panel
+- Redesign MIUI brightness slider
+- Add Pocket Lock, Pocket Judge and Pocket Bridge
+- Add primary color customization with several new colours
+- Add several new accent colors
+- Add several new fonts
+- Add some new adaptive icon styles
+- Fix Google Setup Wizard crash
+- Fix Ambient Music Ticker not working
+- Add Samsung Highlight Clock
+- Add nav gesture handle length adjustment
+- Add option to enable haptic vibration when using back gesture
+- Add option to hide animated arrow when using back gesture
+- Add aggressive battery saver
+
+----------------------------------------------------------------------------------------------------------------------
+
+May 20th:
+Version 1.0.1-Crayfish
+
+- Added Bootleggers Clocks
+- Added themed Asus Stitch Image
+- Improvements to Face Unlock
+- Added support for Smart Pixels
+- Allow configuration of Quick Settings Rows and Columns
+- Redesign Settings icon
+- Redesign VoLTE icon
+- Redesign default FOD icon
+- Replace default FOD animation with OnePlus Ripple
+- Redesign MIUI Brightness Slider
+- Add custom Binary clock
+
+----------------------------------------------------------------------------------------------------------------------
+
+May 15th:
+Version 1.0-Lobster
+
+- Initial Release
+
+----------------------------------------------------------------------------------------------------------------------
+

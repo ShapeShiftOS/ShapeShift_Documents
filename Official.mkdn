@@ -1,0 +1,46 @@
+# Official
+
+>> This document highlights how you can get access to our official repos and maintain ShapeShiftOS officially for your device.
+
+Please note that there is no Google form or a message that you need to send to an admin. 
+All the handling of official applications are completely done through the GitHub pull request system.
+
+### So how do you do it?
+
+It's quite easy infact.
+
+Follow this format for your pull request message:
+
+```bash
+Device and codename: 
+
+Device tree:
+
+Kernel source:
+
+Current Linux subversion:
+
+Reason for prebuilt kernel (if exists):
+
+Selinux: Enforcing/permissive
+
+Safetynet status: Pass without Magisk/Pass with Magisk/Fails
+
+Sourceforge username:
+
+Telegram username:
+
+XDA Thread (if exists):
+
+XDA Profile (if exists):
+```
+
+# Applying
+
+Now for the actual pull request:
+
+Create it [**here**](https://github.com/ShapeShiftOS/Updater-stuff/blob/master/devices.json).
+
+You simply need to add your device here and add in the format above to the commit message.
+
+We will verify whether we've seen your pull request within a week and give you the result within two weeks.
