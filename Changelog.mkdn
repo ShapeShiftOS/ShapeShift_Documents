@@ -1,0 +1,51 @@
+>> Please copy the latest changelog if you are making a release for the newest version of ExtendedReborn. Also, write down the required device changelog.
+____________________________________________________________________________________________________________________________________________________________
+
+Source Changelog: 
+- Added Bootleggers Clocks
+- Added themed Asus Stitch Image
+- Improvements to Face Unlock
+- Added support for Smart Pixels
+- Allow configuration of Quick Settings Rows and Columns
+- Redesign Settings icon
+- Redesign VoLTE icon
+- Redesign default FOD icon
+- Replace default FOD animation with OnePlus Ripple
+- Add Ambient Music Ticker
+- Redesign MIUI Volume Slider
+- Add custom Binary clock
+
+Device Changelog:
+
+
+_____________________________________________________________________________________________________________________________________________________________
+
+Older Changelogs:
+
+---------------------------------------------------------------------------------------------------------------------
+
+May 20th:
+Version 1.0.1-Crayfish
+
+- Added Bootleggers Clocks
+- Added themed Asus Stitch Image
+- Improvements to Face Unlock
+- Added support for Smart Pixels
+- Allow configuration of Quick Settings Rows and Columns
+- Redesign Settings icon
+- Redesign VoLTE icon
+- Redesign default FOD icon
+- Replace default FOD animation with OnePlus Ripple
+- Add Ambient Music Ticker
+- Redesign MIUI Volume Slider
+- Add custom Binary clock
+
+----------------------------------------------------------------------------------------------------------------------
+
+May 15th:
+Version 1.0-Lobster
+
+- Initial Release
+
+----------------------------------------------------------------------------------------------------------------------
+
