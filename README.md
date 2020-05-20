@@ -109,12 +109,12 @@ If your device has an AMOLED screen, add this to your overlay's config.xml:
 >>      <!-- Whether the device supports Smart Pixels -->
 >>      <bool name="config_enableSmartPixels">true</bool>    
 
-If your device has an in-display fingerprint scanner, you have to adapt these commits to your device (Only recommended if FOD doesn't work or has problems on your device!
+If your device has an in-display fingerprint scanner, you have to adapt these commits to your device (Only recommended if FOD doesn't work or has problems on your device!)
 
->>      https://github.com/ancient-devices/device_oneplus_fajita/commit/8d42520f76e949ce2148d7f59f44d4df425e0d2c
->>      https://github.com/ancient-devices/device_oneplus_fajita/commit/8220345e1a11ea88e78662c5ef49b906c7a67551
->>      https://github.com/ancient-devices/device_oneplus_fajita/commit/496222e61eb7aff24116bce27b5cf3c0c6afbced
->>      https://github.com/ancient-devices/device_oneplus_fajita/commit/cf344bc37865f9deb724672c17dbf8ead02e8883
+      https://github.com/ancient-devices/device_oneplus_fajita/commit/8d42520f76e949ce2148d7f59f44d4df425e0d2c
+      https://github.com/ancient-devices/device_oneplus_fajita/commit/8220345e1a11ea88e78662c5ef49b906c7a67551
+      https://github.com/ancient-devices/device_oneplus_fajita/commit/496222e61eb7aff24116bce27b5cf3c0c6afbced
+      https://github.com/ancient-devices/device_oneplus_fajita/commit/cf344bc37865f9deb724672c17dbf8ead02e8883
 
 ##### Setting Up CCache
 - CCache is a method of utilizing a specified storage space to speed up building. It can be referred to as the same caching your android device does to speed up application and system boot times. In this case, CCache will help build ExtendedReborn faster than standard build times (Able to cut-down 50% of time taken to build).
