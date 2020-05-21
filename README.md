@@ -101,11 +101,11 @@ How to build ExtendedReborn ROM for your device - Tutorial
 ##### Preparing ExtendedReborn ROM for devices
 - For building ExtendedReborn for your device, ensure that your trees can successfully build PixelExperience as our code is extremely similar to theirs. Of course, we do require some additional overlays in your tree to make the best out of ExtendedReborn.
 
-If you have a device with a notch, add this to your overlay's config.xml:
+If you have a device with a notch, add this to your overlay's overlay/frameworks/base/core/res/res/values/config.xml:
 >>     <!-- Whether device has a physical display cutout -->
 >>     <bool name="config_physicalDisplayCutout">true</bool>
 
-If your device has an AMOLED screen, add this to your overlay's config.xml:
+If your device has an AMOLED screen, add this to your overlays overlay/frameworks/base/core/res/res/values/config.xml:
 >>      <!-- Whether the device supports Smart Pixels -->
 >>      <bool name="config_enableSmartPixels">true</bool>    
 
