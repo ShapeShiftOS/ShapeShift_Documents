@@ -11,7 +11,6 @@ Source Changelog:
 - Redesign VoLTE icon
 - Redesign default FOD icon
 - Replace default FOD animation with OnePlus Ripple
-- Add Ambient Music Ticker
 - Redesign MIUI Volume Slider
 - Add custom Binary clock
 
@@ -36,7 +35,6 @@ Version 1.0.1-Crayfish
 - Redesign VoLTE icon
 - Redesign default FOD icon
 - Replace default FOD animation with OnePlus Ripple
-- Add Ambient Music Ticker
 - Redesign MIUI Volume Slider
 - Add custom Binary clock
 
