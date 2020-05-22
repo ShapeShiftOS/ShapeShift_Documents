@@ -1,4 +1,4 @@
->> Please copy the latest changelog if you are making a release for the newest version of ExtendedReborn. Also, write down the required device changelog.
+>> Please copy the latest changelog if you are making a release for the newest version of ShapeShiftOS. Also, write down the required device changelog.
 ____________________________________________________________________________________________________________________________________________________________
 
 Source Changelog: 
