@@ -10,7 +10,7 @@ This set of rules are required to be considered before applying for maintainersh
 - **The private trees rule:** Private trees are accepted but with the limit of 1 (one) months since the maintainer application is accepted. A private tree is tolerated if the device is having a lot of bugs and it needs some big changes to make it stable. If it's private to the sake of being private or "I don't want buildbot to leech me" then after the month, your device will be dropped.
 - **Furthermore**, ensure you properly read the Charter as well so that you are aware of what is expected from you.
 
-If any questions, let us know on [our telegram chat](https://t.me/extendedrebornchat). You can also request to get in contact with the admins here so that you can actually drop your maintainership application which should include the following:
+If any questions, let us know on [our telegram chat](https://t.me/shapeshiftoschat). You can also request to get in contact with the admins here so that you can actually drop your maintainership application which should include the following:
 - **Device, Common, Vendor, Kernel and any other extra trees you need.**
 - **Your Sourceforge and GitHub account usernames.**
 - **Device bugs.**
@@ -39,7 +39,7 @@ Before you apply to add your device into our list of official devices, you shoul
 
 - The device may have SELinux Enforcing to release builds.
 
-- The device must have complete hardware compatibility corresponding to the stock ROM, i.e. if IR blaster works on the stock ROM, it must work on ExtendedReborn. Only VoLTE is allowed to be ignored, so are NFC payment methods.
+- The device must have complete hardware compatibility corresponding to the stock ROM, i.e. if IR blaster works on the stock ROM, it must work on ShapeShiftOS. Only VoLTE is allowed to be ignored, so are NFC payment methods.
 
 - The device must pass SafetyNet out of the box, without any 3rd part mods. If any device's stock build fingerprint works to bypass SafetyNet, those must take preference, even though that custom fingerprints (e.g. Pixels Build fingerprints) aren't restricted to be used.
 
