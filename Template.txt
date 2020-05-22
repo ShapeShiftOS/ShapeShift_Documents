@@ -1,8 +1,8 @@
-Title: [ROM][10.0.0_r36][UNOFFICIAL][STABLE] ExtendedReborn [DEVICE_CODENAME]
+Title: [ROM][10.0.0_r36][UNOFFICIAL][STABLE] ShapeShiftOS [DEVICE_CODENAME]
 
 -----------------------------------------------------------------------------
 
-[CENTER][img]https://i.imgur.com/urc7KCp.png[/img]
+[CENTER][img]https://i.imgur.com/CJiO8Bk.png[/img]
 
 
 [CODE]/*
@@ -20,13 +20,13 @@ Read the whole OP! Be respectful to each other and don't ask for ETAs, it's cons
 
 
 [B][SIZE="4"][COLOR="Black"]
-ExtendedReborn is custom-rom based on PixelExperience that aims to provide different UI than any other rom on the market.
+ShapeShiftOS is custom-rom based on ExtendedUI that aims to provide different UI than any other rom on the market.
 
-Also, we got our [URL="http://t.me/extendedrebornchannel"]Telegram[/URL] channel you can find here updates about the rom, screenshots and more.[/COLOR][/SIZE][/B]
+Also, we got our [URL="http://t.me/shapeshiftoschannel"]Telegram[/URL] channel you can find here updates about the rom, screenshots and more.[/COLOR][/SIZE][/B]
 
-[img]https://i.imgur.com/dFp65mf.png[/img]
+[img]https://i.imgur.com/v0CAvNp.png[/img]
 
-[B][SIZE="4"]Here are the features! on top of Pixel Experience! We aim to add important features that we think should be here and also what you think. For the addition of more tweaks or features, head on to our Telegram community and post the list of features that you want! Features with commits will be more helpful![/SIZE][/B]
+[B][SIZE="4"]Here are the features on top of Pixel Experience! We aim to add important features that we think should be here and also what you think. For the addition of more tweaks or features, head on to our Telegram community and post the list of features that you want! Features with commits will be more helpful![/SIZE][/B]
 
 
 [CODE][B]
@@ -53,20 +53,20 @@ Also, we got our [URL="http://t.me/extendedrebornchannel"]Telegram[/URL] channel
 - Configurable amount of screen height used for gestures
 [/CODE][/B]
 
-[img]https://i.imgur.com/haP1iKa.png[/img]
+[img]https://i.imgur.com/oMz7G2n.png[/img]
 
 [SIZE="4"][B][U][COLOR="DeepSkyBlue"]
 Download ROM here for your device![/COLOR][/U][/B][/SIZE]
 
 [color=navy][URL="Put the link here"][COLOR="RoyalBlue"][SIZE="3"][B]DOWNLOAD[/B][/SIZE][/COLOR] [/URL][/color]
 
-[img]https://i.imgur.com/JrJIu6i.png[/img]
+[img]https://i.imgur.com/8pYDk8Z.png[/img]
 
 [B][SIZE="4"]Want to try this awesomeness?[/SIZE][/B]
 
 [CODE][b]Write the instructions for your device here[/b][/CODE]
 
-[img]https://i.imgur.com/ikvNEFB.png[/img]
+[img]https://i.imgur.com/Bgj5RHog.png[/img]
 
 
 [B][SIZE="4"]People behind this amazing ROM![/SIZE][/B]
