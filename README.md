@@ -4,7 +4,7 @@ XDA Thread Template and Some other stuff
 Getting Started
 ==================================================
 
-<img src="https://i.imgur.com/urc7KCpr.png"> 
+<img src="https://i.imgur.com/CJiO8Bk.png"> 
 
 How to build ShapeShiftOS ROM for your device - Tutorial
 --------
