@@ -6,7 +6,7 @@ Getting Started
 
 <img src="https://i.imgur.com/urc7KCpr.png"> 
 
-How to build ExtendedReborn ROM for your device - Tutorial
+How to build ShapeShiftOS ROM for your device - Tutorial
 --------
 
 >> To get started with the building process, you'll need to get familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
@@ -71,17 +71,17 @@ How to build ExtendedReborn ROM for your device - Tutorial
       $ chmod a+x ~/bin/repo
 ```
 
-##### Creating directory for where the exui repo will be stored and synced
+##### Creating directory for where the ShapeShiftOS repo will be stored and synced
 
 ```bash
-      $ mkdir ~/exui
-      $ cd ~/exui
+      $ mkdir ~/ssos
+      $ cd ~/ssos
 ```
 
-##### Initializing the exui repo and downloading the manifest
+##### Initializing the ShapeShiftOS repo and downloading the manifest
 
 ```bash
-      $  repo init --depth=1 -u https://github.com/ExtendedReborn/android_manifest.git -b android_10
+      $  repo init --depth=1 -u https://github.com/ShapeShiftOS/android_manifest.git -b android_10
 ```
 
 ##### Syncing the source
@@ -91,15 +91,15 @@ How to build ExtendedReborn ROM for your device - Tutorial
       $  repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
-### Building the ExtendedReborn ROM
+### Building the ShapeShiftOS ROM
 - Preparing Required Binaries and Device Drivers
 - Setting Up CCache (Optional)
-- Building ExtendedReborn
+- Building ShapeShiftOS
 
 >> Congratulations on the succesfull build initialization! Now, we shall go ahead and prepare to build for your device!
 
-##### Preparing ExtendedReborn ROM for devices
-- For building ExtendedReborn for your device, ensure that your trees can successfully build PixelExperience as our code is extremely similar to theirs. Of course, we do require some additional overlays in your tree to make the best out of ExtendedReborn.
+##### Preparing ShapeShiftOS ROM for devices
+- For building ShapeShiftOS for your device, ensure that your trees can successfully build PixelExperience as our code is extremely similar to theirs. Of course, we do require some additional overlays in your tree to make the best out of ShapeShiftOS.
 
 If you have a device with a notch, add this to your overlay's overlay/frameworks/base/core/res/res/values/config.xml:
 >>     <!-- Whether device has a physical display cutout -->
@@ -117,14 +117,14 @@ If your device has an in-display fingerprint scanner, you have to adapt these co
       https://github.com/ancient-devices/device_oneplus_fajita/commit/cf344bc37865f9deb724672c17dbf8ead02e8883
 
 ##### Setting Up CCache
-- CCache is a method of utilizing a specified storage space to speed up building. It can be referred to as the same caching your android device does to speed up application and system boot times. In this case, CCache will help build ExtendedReborn faster than standard build times (Able to cut-down 50% of time taken to build).
+- CCache is a method of utilizing a specified storage space to speed up building. It can be referred to as the same caching your android device does to speed up application and system boot times. In this case, CCache will help build ShapeShiftOS faster than standard build times (Able to cut-down 50% of time taken to build).
 - To set up CCache, follow the following:
 
 ```bash
         $ echo "export USE_CCACHE=1" >> ~/.bashrc
 ```
 
-##### To build ExtendedReborn ROM
+##### To build ShapeShiftOS ROM
 
 ```bash
       $ cd ~/exui
@@ -137,7 +137,7 @@ If your device has an in-display fingerprint scanner, you have to adapt these co
 >> To get the zip file that has been built, navigate to the following directory and find for the zip file:
 
 ```bash
-      $ cd ~/exui/out/target/product/<devicename>
+      $ cd ~/ssos/out/target/product/<devicename>
 ```
 
 OR
@@ -149,28 +149,28 @@ OR
 >> If you found it, then congratulations! If you didn't, try retrying the build process but before doing so, ensure you do the following to make sure your next build is clean;
 
 ```bash
-      $ cd ~/exui
+      $ cd ~/ssos
       $ make clean
       $ repo sync --force-sync
 ```
 
 >> After doing so, redo everything stated from the Building Section.
 
-##### For those who successfully built ExtendedReborn
+##### For those who successfully built ShapeShiftOS
 
->> Well, Congratulations on your victory! Now, you have a .zip file that flashable to your device! Share it to the internet as you wish but be sure to contribute back and also give credits to the ExtendedReborn Team and its contributors! Also keep in mind that if an official build exists for a device, no unofficial builds should be released publicly. Do come and build ExtendedReborn another time as source code is routinely being improved upon. If you wish to contibute, feel free to make a pull request to the ExtendedReborn Team! See you again builder! Note: If you decide to create a thread on xda, please limit the thread to only one per device. More than one thread will not be allowed per device as it creates confusion amongst users and makes it hard for us to track bug reports.
+>> Well, Congratulations on your victory! Now, you have a .zip file that flashable to your device! Share it to the internet as you wish but be sure to contribute back and also give credits to the ShapeShiftOS Team and its contributors! Also keep in mind that if an official build exists for a device, no unofficial builds should be released publicly. Do come and build ShapeShiftOS another time as source code is routinely being improved upon. If you wish to contibute, feel free to make a pull request to the ShapeShiftOS Team! See you again builder! Note: If you decide to create a thread on xda, please limit the thread to only one per device. More than one thread will not be allowed per device as it creates confusion amongst users and makes it hard for us to track bug reports.
 
 -----------------------------------------	
-Getting Official Maintainership for ExtendedReborn
+Getting Official Maintainership for ShapeShiftOS
 ==========================================
->> To get Official Maintainership for ExtendedReborn you should have a stable device source with all the main components working. Read the [**charter**](https://github.com/ExtendedReborn/Reborn_Documentation/blob/reborn/Charter.mkdn) to get a clearer idea.
+>> To get Official Maintainership for ShapeShiftOS you should have a stable device source with all the main components working. Read the [**charter**](https://github.com/ShapeShiftOS/Shift_Documentation/blob/shapeless/Charter.mkdn) to get a clearer idea.
 
->> First make an unofficial build of ExtendedReborn and post in [**XDA**](https://xda-developers.com). Make sure you use the template here! Click on the raw button and change the links up where ever required.
+>> First make an unofficial build of ShapeShiftOS and post in [**XDA**](https://xda-developers.com). Make sure you use the template here! Click on the raw button and change the links up where ever required.
 
->> Then, Ping us on Telegram :- [**ExtendedRebornChat**](https://t.me/extendedrebornchat) 
+>> Then, Ping us on Telegram :- [**ShapeShiftOSChat**](https://t.me/shapeshiftoschat) 
 
->> Join our [**Telegram Channel**](https://t.me/extendedrebornchannel) and our  [**Telegram group**](https://t.me/extendedrebornchat)
+>> Join our [**Telegram Channel**](https://t.me/shapeshiftoschannel) and our  [**Telegram group**](https://t.me/shapeshiftoschat)
 
->> To publish builds use our Template : [**ExtendedReborn XDA Template**](https://github.com/ExtendedReborn/Reborn_Documentation/blob/reborn/Template.txt)
+>> To publish builds use our Template : [**ShapeShiftOS XDA Template**](https://github.com/ShapeShiftOS/Shift_Documentation/blob/shapeless/Template.txt)
 
 ----------------------------
