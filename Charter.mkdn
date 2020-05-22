@@ -1,6 +1,6 @@
-# Maintainer Rules for ExtendedReborn
+# Maintainer Rules for ShapeShiftOS
 
-This set of rules are required to be considered before applying for maintainership for ExtendedReborn. Please, take the time to read them before applying.
+This set of rules are required to be considered before applying for maintainership for ShapeShiftOS. Please, take the time to read them before applying.
 
 ### Device trees
 
