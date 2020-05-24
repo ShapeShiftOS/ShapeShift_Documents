@@ -1,27 +1,46 @@
 >> Please copy the latest changelog if you are making a release for the newest version of ShapeShiftOS. Also, write down the required device changelog.
-____________________________________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________
 
 Source Changelog: 
-- Added Bootleggers Clocks
-- Added themed Asus Stitch Image
-- Improvements to Face Unlock
-- Added support for Smart Pixels
-- Allow configuration of Quick Settings Rows and Columns
-- Redesign Settings icon
-- Redesign VoLTE icon
-- Redesign default FOD icon
-- Replace default FOD animation with OnePlus Ripple
-- Redesign MIUI Brightness Slider
-- Add custom Binary clock
 
+- Rebrand from ExtendedReborn to ShapeShiftOS
+- Complete upstream with PixelExperience sources
+- Dynamic blurring in Settings UI
+- Introduce Theme Engine in Customization Panel
+- Add primary color customization with several new colours
+- Add several new accent colors
+- Add several new fonts
+- Add some new adaptive icon styles
+- Fix Google Setup Wizard crash
+- Fix Ambient Music Ticker not working
+- Add Samsung Highlight Clock
+
+ 
 Device Changelog:
 
 
-_____________________________________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________
 
 Older Changelogs:
 
----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+
+May 24th:
+Version 1.0.2-Progressive
+
+- Rebrand from ExtendedReborn to ShapeShiftOS
+- Complete upstream with PixelExperience sources
+- Dynamic blurring in Settings UI
+- Introduce Theme Engine in Customization Panel
+- Add primary color customization with several new colours
+- Add several new accent colors
+- Add several new fonts
+- Add some new adaptive icon styles
+- Fix Google Setup Wizard crash
+- Fix Ambient Music Ticker not working
+- Add Samsung Highlight Clock
+
+----------------------------------------------------------------------------------------------------------------------
 
 May 20th:
 Version 1.0.1-Crayfish
