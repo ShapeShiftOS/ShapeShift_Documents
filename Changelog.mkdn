@@ -14,6 +14,10 @@ Source Changelog:
 - Fix Google Setup Wizard crash
 - Fix Ambient Music Ticker not working
 - Add Samsung Highlight Clock
+- Add nav gesture handle length adjustment
+- Add option to enable haptic vibration when using back gesture
+- Add option to hide animated arrow when using back gesture
+- Add aggressive battery saver
 
  
 Device Changelog:
@@ -39,6 +43,10 @@ Version 1.0.2-Progressive
 - Fix Google Setup Wizard crash
 - Fix Ambient Music Ticker not working
 - Add Samsung Highlight Clock
+- Add nav gesture handle length adjustment
+- Add option to enable haptic vibration when using back gesture
+- Add option to hide animated arrow when using back gesture
+- Add aggressive battery saver
 
 ----------------------------------------------------------------------------------------------------------------------
 
