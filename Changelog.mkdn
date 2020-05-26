@@ -10,6 +10,8 @@ Source Changelog:
 - Add primary color customization with several new colours
 - Add several new accent colors
 - Add several new fonts
+- Redesign MIUI brightness slider
+- Add Pocket Lock, Pocket Judge and Pocket Bridge
 - Add some new adaptive icon styles
 - Fix Google Setup Wizard crash
 - Fix Ambient Music Ticker not working
@@ -36,6 +38,8 @@ Version 1.0.2-Progressive
 - Complete upstream with PixelExperience sources
 - Dynamic blurring in Settings UI
 - Introduce Theme Engine in Customization Panel
+- Redesign MIUI brightness slider
+- Add Pocket Lock, Pocket Judge and Pocket Bridge
 - Add primary color customization with several new colours
 - Add several new accent colors
 - Add several new fonts
