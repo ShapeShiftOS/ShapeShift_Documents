@@ -20,9 +20,9 @@ Read the whole OP! Be respectful to each other and don't ask for ETAs, it's cons
 
 
 [B][SIZE="4"][COLOR="Black"]
-ShapeShiftOS is custom-rom based on ExtendedUI that aims to provide different UI than any other rom on the market.
+ShapeShiftOS is a custom-rom based on ExtendedUI that aims to provide a different user interface and experience than any other ROM on the market.
 
-Also, we got our [URL="http://t.me/shapeshiftoschannel"]Telegram[/URL] channel you can find here updates about the rom, screenshots and more.[/COLOR][/SIZE][/B]
+Also, we got our [URL="http://t.me/shapeshiftoschannel"]Telegram[/URL] channel you can find here updates about the ROM, screenshots and more.[/COLOR][/SIZE][/B]
 
 [img]https://i.imgur.com/v0CAvNp.png[/img]
 
@@ -31,7 +31,7 @@ Also, we got our [URL="http://t.me/shapeshiftoschannel"]Telegram[/URL] channel y
 
 [CODE][B]
 - Refined UI by cfdddd (00day/00day0)
-- Prebuilt Lawmchair
+- Prebuilt Lawnchair
 - Face Unlock for Official Devices
 - R Style Notification Headers
 - Several optimizations for a faster User Interface
