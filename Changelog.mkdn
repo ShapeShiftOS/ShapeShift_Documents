@@ -3,23 +3,8 @@ ________________________________________________________________________________
 
 Source Changelog: 
 
-- Rebrand from ExtendedReborn to ShapeShiftOS
-- Complete upstream with PixelExperience sources
-- Dynamic blurring in Settings UI
-- Introduce Theme Engine in Customization Panel
-- Add primary color customization with several new colours
-- Add several new accent colors
-- Add several new fonts
-- Redesign MIUI brightness slider
-- Add Pocket Lock, Pocket Judge and Pocket Bridge
-- Add some new adaptive icon styles
-- Fix Google Setup Wizard crash
-- Fix Ambient Music Ticker not working
-- Add Samsung Highlight Clock
-- Add nav gesture handle length adjustment
-- Add option to enable haptic vibration when using back gesture
-- Add option to hide animated arrow when using back gesture
-- Add aggressive battery saver
+- Add Lineage Touch HAL Support (Not for all devices)
+- Cleanup ConfigCenter
 
  
 Device Changelog:
@@ -30,6 +15,14 @@ ________________________________________________________________________________
 Older Changelogs:
 
 ----------------------------------------------------------------------------------------------------------------------
+
+May 27th:
+Version 1.0.2-Progressive
+
+- Add Lineage Touch HAL Support (Not for all devices)
+- Cleanup ConfigCenter
+
+------------------------------------------------------------------------------------------------------------------------------
 
 May 24th:
 Version 1.0.2-Progressive
