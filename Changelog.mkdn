@@ -5,6 +5,9 @@ Source Changelog:
 
 - Add Lineage Touch HAL Support (Not for all devices)
 - Cleanup ConfigCenter
+- Add incall vibration options
+- Import vibration patterns from OxygenOS
+- Add support to open app from about app page in settings
 
  
 Device Changelog:
@@ -21,6 +24,9 @@ Version 1.0.2-Progressive
 
 - Add Lineage Touch HAL Support (Not for all devices)
 - Cleanup ConfigCenter
+- Add incall vibration options
+- Import vibration patterns from OxygenOS
+- Add support to open app from about app page in settings
 
 ------------------------------------------------------------------------------------------------------------------------------
 
