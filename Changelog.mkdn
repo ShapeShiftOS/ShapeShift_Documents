@@ -5,8 +5,7 @@ Source Changelog:
 
 - Add Lineage Touch HAL Support (Not for all devices)
 - Cleanup ConfigCenter
-- Add incall vibration options
-- Import vibration patterns from OxygenOS
+- Add Developer Options Insulter and One doesn't simply become a developer
 - Add support to open app from about app page in settings
 
  
@@ -24,8 +23,7 @@ Version 1.0.2-Progressive
 
 - Add Lineage Touch HAL Support (Not for all devices)
 - Cleanup ConfigCenter
-- Add incall vibration options
-- Import vibration patterns from OxygenOS
+- Add Developer Options Insulter and One doesn't simply become a developer
 - Add support to open app from about app page in settings
 
 ------------------------------------------------------------------------------------------------------------------------------
