@@ -15,3 +15,16 @@ If your device has an in-display fingerprint scanner, you have to adapt these co
       https://github.com/ancient-devices/device_oneplus_fajita/commit/8220345e1a11ea88e78662c5ef49b906c7a67551
       https://github.com/ancient-devices/device_oneplus_fajita/commit/496222e61eb7aff24116bce27b5cf3c0c6afbced
       https://github.com/ancient-devices/device_oneplus_fajita/commit/cf344bc37865f9deb724672c17dbf8ead02e8883
+      
+
+If your device supports Dash Charging, add this to your overlays overlay/frameworks/base/core/res/res/values/config.xml:
+
+>>    <!-- Whether device has dash charging support -->
+>>    <bool name="config_hasDashCharger">true</bool>
+
+If your device supports Warp Charging, add this to your overlays overlay/frameworks/base/core/res/res/values/config.xml:
+
+>>    <!-- Whether device has warp charging support -->
+>>    <bool name="config_hasWarpCharger">true</bool>
+
+If your device supports Lineage Touch HALs, we request you to add them on. You can check LineageOS trees for your device to get started.
