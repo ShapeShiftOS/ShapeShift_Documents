@@ -18,6 +18,15 @@ Older Changelogs:
 
 ----------------------------------------------------------------------------------------------------------------------
 
+May 29th:
+Version 1.0.3-Magikarp
+
+- Fix Network Indicators on most devices (For maintainers: Requires a kernel patch)
+- Fix Lockscreen Display causing a crash
+- Add support for dash charging and warp charging (For maintainers: See bringup help)
+
+----------------------------------------------------------------------------------------------------------------------
+
 May 27th:
 Version 1.0.2-Progressive
 
