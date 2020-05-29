@@ -27,7 +27,9 @@ Version 1.0.3-Magikarp
 - Remove restrictions for internal audio recording in screen recording
 - Update OOS ScreenRecorder
 - Add improved video codecs and switch to use low resolution in AOSP ScreenRecorder
-- Redesign VoLTE icon
+- Add VoLTE icon picker
+- Improve VoLTE icon padding
+- Add show 4G icon instead of LTE
 - Upstream source from Pixel Experience
 
 ----------------------------------------------------------------------------------------------------------------------
