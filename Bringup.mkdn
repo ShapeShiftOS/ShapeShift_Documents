@@ -8,6 +8,9 @@ If you have a device with a notch, add this to your overlay's overlay/frameworks
 If your device has an AMOLED screen, add this to your overlays overlay/frameworks/base/core/res/res/values/config.xml:
 >>      <!-- Whether the device supports Smart Pixels -->
 >>      <bool name="config_enableSmartPixels">true</bool>    
+>>
+>>       <!-- If true, the display will be shifted around in ambient mode. -->
+>>       <bool name="config_enableBurnInProtection">true</bool>
 
 If your device has an in-display fingerprint scanner, you have to adapt these commits to your device (Only recommended if FOD doesn't work or has problems on your device!)
 
