@@ -24,6 +24,11 @@ Version 1.0.3-Magikarp
 - Fix Network Indicators on most devices (For maintainers: Requires a kernel patch)
 - Fix Lockscreen Display causing a crash
 - Add support for dash charging and warp charging (For maintainers: See bringup help)
+- Remove restrictions for internal audio recording in screen recording
+- Update OOS ScreenRecorder
+- Add improved video codecs and switch to use low resolution in AOSP ScreenRecorder
+- Redesign VoLTE icon
+- Upstream source from Pixel Experience
 
 ----------------------------------------------------------------------------------------------------------------------
 
