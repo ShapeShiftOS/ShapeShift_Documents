@@ -34,4 +34,4 @@ If your device supports Lineage Touch HALs, we request you to add them on. You c
 
 All our builds come with Lawnchair prebuilt. However, if you do not want Lawnchair, simply add this line in your device tree's makefile and Pixel Launcher will be used instead.
 
->>         LAWNCHAIR_OPTOUT := true
+>>         export LAWNCHAIR_OPTOUT := true
