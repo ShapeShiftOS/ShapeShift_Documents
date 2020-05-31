@@ -21,11 +21,13 @@ Older Changelogs:
 May 29th:
 Version 1.0.3-Magikarp
 
-- Fix Network Indicators on most devices (For maintainers: Requires a kernel patch)
+- Rewrite Network Traffic Indicator implementation
+- Rewrite Lawnchair Implementation
+- Rewrite QS Columns and Rows Implementation
 - Fix Lockscreen Display causing a crash
 - Add support for dash charging and warp charging (For maintainers: See bringup help)
-- Remove restrictions for internal audio recording in screen recording
-- Update OOS ScreenRecorder
+- Remove restrictions for system audio recording in screen recording
+- Update OOS ScreenRecorder to now support internal audio recording
 - Add improved video codecs and switch to use low resolution in AOSP ScreenRecorder
 - Add VoLTE icon picker
 - Improve VoLTE icon padding
