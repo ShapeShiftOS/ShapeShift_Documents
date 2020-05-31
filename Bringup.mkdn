@@ -31,3 +31,7 @@ If your device supports Warp Charging, add this to your overlays overlay/framewo
 >>        <bool name="config_hasWarpCharger">true</bool>
 
 If your device supports Lineage Touch HALs, we request you to add them on. You can check LineageOS trees for your device to get started.
+
+All our builds come with Lawnchair prebuilt. However, if you do not want Lawnchair, simply add this line in your device tree's makefile and Pixel Launcher will be used instead.
+
+>>         LAWNCHAIR_OPTOUT := true
