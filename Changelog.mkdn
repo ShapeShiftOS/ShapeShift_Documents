@@ -18,7 +18,7 @@ Older Changelogs:
 
 ----------------------------------------------------------------------------------------------------------------------
 
-May 29th:
+June 1st:
 Version 1.0.3-Magikarp
 
 - Rewrite Network Traffic Indicator implementation
