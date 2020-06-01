@@ -31,6 +31,8 @@ Version 1.0.3-Magikarp
 - Add improved video codecs and switch to use low resolution in AOSP ScreenRecorder
 - Add VoLTE icon picker
 - Improve VoLTE icon padding
+- Add ShapeShift Papers app
+- Address some CTS issues
 - Add show 4G icon instead of LTE
 - Upstream source from Pixel Experience
 
