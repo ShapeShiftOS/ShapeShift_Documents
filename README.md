@@ -109,7 +109,7 @@ How to build ShapeShiftOS ROM for your device - Tutorial
 ##### To build ShapeShiftOS ROM
 
 ```bash
-      $ cd ~/exui
+      $ cd ~/ssos
       $ source build/envsetup.sh
       $ lunch aosp_<devicecodename>-userdebug
       $ make bacon -j$(nproc --all)
