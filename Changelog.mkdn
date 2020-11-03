@@ -3,34 +3,34 @@ ________________________________________________________________________________
 
 Source Changelog: 
 
-- Prebuilt GApps
-- Some Pixel stuff like lockscreen weather and feature impl in Settings
-- New versioning system
-- QTI BT support
-- BoardConfig --> ProductConfig
-- Permissions Hub
-- Default dark theme is black
-- Default iOS accent
-- Motorola Face unlock
-- Lockscreen charging animation
-- Black/white themed bootanimation
-- FOD support 
-- Heads up tile
-- Custom clocks from 10
-- Extend internal audio recording to all apps
-- Prebuilt smart space, device personalization services, pixel launcher etc.
-- Support for OnePlus vibrator HAL
-- Battery icon in Quicksettings header
-- Legacy apps scale fully to display
-- OOS style switches and QS layout
-- Blurred powermenu background
-- Tons of other bug fixes and improvements over stock Android R
-
+- r15 November Security Patch
+- FOD animations and picker
+- Reboot/Recovery tile
+- Caffeine tile
+- Dataswitch tile
+- VOOC and Warp charging support
+- Disable fp vibration if haptics are disabled
+- Delete button in screenshot UI
+- 90, 180 and 270 degree rotation
 _____________________________________________________________________________________________________________________________
 
 <Please don't copy older changelogs. They are for reference.>
 
 Older Changelogs:
+
+---------------------------------------------------------------------------------------------------------------------
+
+November 3rd: Version 2.0-Unstamble
+
+- r15 November Security Patch
+- FOD animations and picker
+- Reboot/Recovery tile
+- Caffeine tile
+- Dataswitch tile
+- VOOC and Warp charging support
+- Disable fp vibration if haptics are disabled
+- Delete button in screenshot UI
+- 90, 180 and 270 degree rotation
 
 ---------------------------------------------------------------------------------------------------------------------
 
