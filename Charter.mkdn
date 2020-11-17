@@ -9,7 +9,7 @@ This set of rules are required to be considered before applying for maintainersh
 - **Respect authorship and make your forks.** Having your custom device tree guarantees that if something is broken, you can fix it fast. Dumb thing to clarify at this point. So, it's better if you do your forks with the whole adapting to our ROM instead of linking us some Lineage/Other developer trees (the only exception to this rule is kernel/vendor trees that requires little to no changes most of the time) that you used to build. Also, sources without proper commit authorship or "Initial commit" (the 1 commit magic device tree) sources will be completely ignored.
 - **The private trees rule:** Private trees are accepted but with the limit of 1 (one) months since the maintainer application is accepted. A private tree is tolerated if the device is having a lot of bugs and it needs some big changes to make it stable. If it's private to the sake of being private or "I don't want buildbot to leech me" then after the month, your device will be dropped.
 - **Furthermore**, ensure you properly read the Charter as well so that you are aware of what is expected from you.
-- **You must maintain your own trees.** Taking someone else's tree and adding a ShapeShift-ify commit which only affects ROM branding makefiles will lead to an immediate reject. If your own trees aren't compatible with the source, you are welcome to make the required changes to the source and pull request them (please read the bottom of the Charter for more information). If you do not maintain your own trees, please come back later.
+- **You must maintain your own trees.** Taking someone else's tree and adding a ShapeShift-ify commit which only affects ROM branding makefiles will lead to an immediate reject. If your own trees aren't compatible with the source, you are welcome to make the required changes to the source and pull request them (please read the bottom of the Charter for more information). If you do not maintain your own trees, please come back later. All trees must be pushed to our devices organisation.
 
 If any questions, let us know on [our telegram chat](https://t.me/shapeshiftoschat). You can also request to get in contact with the admins here so that you can actually drop your maintainership application which should include the following:
 - **Device, Common, Vendor, Kernel and any other extra trees you need.**
@@ -44,7 +44,7 @@ Before you apply to add your device into our list of official devices, you shoul
 
 - The device must have complete hardware compatibility corresponding to the stock ROM, i.e. if IR blaster works on the stock ROM, it must work on ShapeShiftOS. Only VoLTE is allowed to be ignored, so are NFC payment methods.
 
-- The device must pass SafetyNet out of the box, without any 3rd part mods. If any device's stock build fingerprint works to bypass SafetyNet, those must take preference, even though that custom fingerprints (e.g. Pixels Build fingerprints) aren't restricted to be used.
+- The device must not need to pass SafetyNet out of the box, even without any 3rd part mods. If any device's stock build fingerprint works to bypass SafetyNet, those must take preference, even though that custom fingerprints (e.g. Pixels Build fingerprints) aren't restricted to be used.
 
 - The device must not include any unused overlays and packages. This includes, but is not limited to, packages not being built, packages that don't work, obsolete packages, placebo 'tweaks' or any packages that will include unnecessary and/or unwanted features.
 
