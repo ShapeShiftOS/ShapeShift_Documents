@@ -3,20 +3,97 @@ ________________________________________________________________________________
 
 Source Changelog: 
 
-- r15 November Security Patch
-- FOD animations and picker
-- Reboot/Recovery tile
-- Caffeine tile
-- Dataswitch tile
-- VOOC and Warp charging support
-- Disable fp vibration if haptics are disabled
-- Delete button in screenshot UI
-- 90, 180 and 270 degree rotation
+- Redesign Settings dashboard
+- Redesign some drawables to OOS style
+- ShapeShifter is back and redesigned
+- Add easter egg to about phone
+- Protect IMEI info in about phone
+- Add font, system icons, adaptive icon shape and accent picker
+- Update default accent and improve theming system wide
+- Fix default pixel sounds
+- Update inter fonts 
+- Update GApps prebuilts
+- Battery bar
+- Statusbar clock and date customization
+- Pixel navbar and inversion
+- Volume rocker invert on landscape, cursor, wake and seek tracks
+- Adaptive playback
+- Swipe up on keyguard to use faceunlock
+- Redesign powermenu
+- Redesign SettingsIntelligence
+- Horizon lights
+- Heads up blacklist, whitelist, snooze and timeout
+- Fix now playing crash
+- Wake on plug
+- Lockscreen media art with filters
+- Optional haptic feedback on qs tiles and optional disable qs tiles on lockscreen
+- QS rows and columns sliders
+- Alert slider dialogs
+- Wireless charging animation for wired charging
+- Ringtone audio focus customization
+- Ambient music ticker 
+- Statusbar tuner
+- Quick unlock and scramble pin
+- Dismiss notifications by swiping fingerprint 
+- AOD, usb tethering and compass tiles
+- Burnin protection
+- Redesign DocumentsUI
+- Add cards and passes to powermenu
+- Add atoll support
+- Fix audio hal compilation on 4.14
+- Per-app cellular data, vpn and wifi restrictions
+- Removed a few features from 2.0 November 3rd which were buggy
+
 _____________________________________________________________________________________________________________________________
 
 <Please don't copy older changelogs. They are for reference.>
 
 Older Changelogs:
+
+---------------------------------------------------------------------------------------------------------------------
+
+November 18th: Version 2.0.1-Mudkip
+
+- Redesign Settings dashboard
+- Redesign some drawables to OOS style
+- ShapeShifter is back and redesigned
+- Add easter egg to about phone
+- Protect IMEI info in about phone
+- Add font, system icons, adaptive icon shape and accent picker
+- Update default accent and improve theming system wide
+- Fix default pixel sounds
+- Update inter fonts 
+- Update GApps prebuilts
+- Battery bar
+- Statusbar clock and date customization
+- Pixel navbar and inversion
+- Volume rocker invert on landscape, cursor, wake and seek tracks
+- Adaptive playback
+- Swipe up on keyguard to use faceunlock
+- Redesign powermenu
+- Redesign SettingsIntelligence
+- Horizon lights
+- Heads up blacklist, whitelist, snooze and timeout
+- Fix now playing crash
+- Wake on plug
+- Lockscreen media art with filters
+- Optional haptic feedback on qs tiles and optional disable qs tiles on lockscreen
+- QS rows and columns sliders
+- Alert slider dialogs
+- Wireless charging animation for wired charging
+- Ringtone audio focus customization
+- Ambient music ticker 
+- Statusbar tuner
+- Quick unlock and scramble pin
+- Dismiss notifications by swiping fingerprint 
+- AOD, usb tethering and compass tiles
+- Burnin protection
+- Redesign DocumentsUI
+- Add cards and passes to powermenu
+- Add atoll support
+- Fix audio hal compilation on 4.14
+- Per-app cellular data, vpn and wifi restrictions
+- Removed a few features from 2.0 November 3rd which were buggy
 
 ---------------------------------------------------------------------------------------------------------------------
 
