@@ -52,6 +52,25 @@ Older Changelogs:
 
 ---------------------------------------------------------------------------------------------------------------------
 
+November 19th: Version 2.0.1-Mudkip
+
+
+- Fix HeadsUp snooze causing SystemUI crash
+- Fix Google Dialer 
+- Fix sepolicy for Tissot
+- fix signal strength for 2g
+- Fix airplane mode still using data on some devices
+- AOKP custom system animations
+- Animations for qs tiles
+- Interpolators for qs tiles
+- Listanimation views and Interpolators
+- Toast animations
+- Scrolling cache options
+- Allow disabling animations
+- Russian translations
+
+---------------------------------------------------------------------------------------------------------------------
+
 November 18th: Version 2.0.1-Mudkip
 
 - Redesign Settings dashboard
