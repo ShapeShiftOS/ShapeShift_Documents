@@ -67,6 +67,7 @@ November 19th: Version 2.0.1-Mudkip
 - Toast animations
 - Scrolling cache options
 - Allow disabling animations
+- Network Traffic Indicators
 - Russian translations
 
 ---------------------------------------------------------------------------------------------------------------------
