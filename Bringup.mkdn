@@ -16,7 +16,16 @@ If your device has an AMOLED screen, add this to your overlays overlay/framework
 >>       <bool name="config_enableBurnInProtection">true</bool>
 # FOD
 
-We use PE's FOD implementation. Check this device tree if you want any [**reference**](https://github.com/ShapeShiftOS-Devices/device_oneplus_fajita/tree/android_11)
+We use LineageOS's FOD implementation. Check this device tree if you want any [**reference**](https://github.com/ShapeShiftOS-Devices/device_oneplus_fajita/tree/android_11)
+
+# Screen off FOD
+
+To get screen off FOD, you first need screen off FOD support in your device tree. There is also an overlay you need to add to your tree.
+
+To overlay/frameworks/base/core/res/res/values/config.xml
+
+>>        <!-- Whether device has screen off FOD support -->
+>>        <bool name="config_supportScreenOffFod">true</bool>
 
 # Dash Charging
 
