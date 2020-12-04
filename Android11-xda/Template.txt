@@ -1,0 +1,107 @@
+Title: [ROM][11.0_r16][OFFICIAL][STABLE] ShapeShiftOS [DEVICE_CODENAME]
+
+-----------------------------------------------------------------------------
+
+[CENTER][img]https://i.imgur.com/CJiO8Bk.png[/img]
+
+
+[CODE]/*
+ * Your warranty is now void.
+ *
+ * I am not responsible for bricked devices, dead SD cards,
+ * thermonuclear war, or you getting fired because the alarm app failed. Please
+ * do some research if you have any concerns about features included in this ROM
+ * before flashing it! YOU are choosing to make these modifications, and if
+ * you point the finger at me for messing up your device, I will laugh at you.
+ */[/CODE]
+
+[SIZE="3"][B]
+Read the whole OP! Be respectful to each other and don't ask for ETAs, it's considered as being rude![/B][/SIZE]
+
+
+[B][SIZE="4"][COLOR="Black"]
+ShapeShiftOS is a custom-rom based on AOSP that aims to provide a different user interface and experience than any other ROM on the market.
+
+Also, we have our [URL="http://t.me/shapeshiftoschannel"]Telegram[/URL] channel you can find here updates about the ROM, screenshots and more.[/COLOR][/SIZE][/B]
+
+[img]https://i.imgur.com/v0CAvNp.png[/img]
+
+[B][SIZE="4"]Here are the features on top of AOSP! We aim to add important features that we think should be here and also what you think. For the addition of more tweaks or features, head on to our Telegram community and post the list of features that you want! Features with commits will be more helpful![/SIZE][/B]
+
+
+[CODE][B]
+- Prebuilt GApps
+- Some Pixel stuff like lockscreen weather and feature impl in Settings
+- Battery icon in Quicksettings header
+- Legacy apps scale fully to display
+- OOS style switches and QS layout
+- Blurred powermenu background
+- Custom QS tiles
+- Custom clocks from 10
+- Wake on plug
+- Lockscreen media art with filters
+- Optional haptic feedback on qs tiles and optional disable qs tiles on lockscreen
+- QS rows and columns sliders
+- Alert slider dialogs
+- Wireless charging animation for wired charging
+- Ringtone audio focus customization
+- Ambient music ticker 
+- Statusbar tuner
+- Quick unlock and scramble pin
+- Dismiss notifications by swiping fingerprint 
+- AOD, usb tethering and compass tiles
+- Burnin protection
+- Redesign DocumentsUI
+- cards and passes in powermenu
+- AOKP custom system animations
+- Animations for qs tiles
+- Interpolators for qs tiles
+- Listanimation views and Interpolators
+- Toast animations
+- Scrolling cache options
+- Allow disabling animations
+- Network Traffic Indicators
+- Battery bar
+- Statusbar clock and date customization
+- Pixel navbar and inversion
+- Volume rocker invert on landscape, cursor, wake and seek tracks
+- Adaptive playback
+- Face unlock
+- Swipe up on keyguard to use faceunlock
+- Redesign powermenu
+- Redesign SettingsIntelligence
+- Horizon lights
+- Heads up blacklist, whitelist, snooze and timeout
+[/CODE][/B]
+
+[img]https://i.imgur.com/oMz7G2n.png[/img]
+
+[SIZE="4"][B][U][COLOR="DeepSkyBlue"]
+Download ROM here for your device![/COLOR][/U][/B][/SIZE]
+
+[color=navy][URL="Put the link here"][COLOR="RoyalBlue"][SIZE="3"][B]DOWNLOAD[/B][/SIZE][/COLOR] [/URL][/color]
+
+[img]https://i.imgur.com/8pYDk8Z.png[/img]
+
+[B][SIZE="4"]Want to try this awesomeness?[/SIZE][/B]
+
+[CODE][b]Write the instructions for your device here[/b][/CODE]
+
+[img]https://i.imgur.com/Bgj5RHog.png[/img]
+
+
+[B][SIZE="4"]People behind this amazing ROM![/SIZE][/B]
+
+[B][SIZE="4"]
+- Ashutosh Sundresh
+- MezzLasha
+- LineageOS
+- OmniROM
+- Dirty Unicorns
+- AOSPA [/SIZE][/B]
+
+[color=navy][URL="Put your kernel source here"][COLOR="RoyalBlue"][SIZE="3"][B]Kernel Source[/B][/SIZE][/COLOR] [/URL][/color]
+
+//Thread template designed by MezzLasha and [MENTION=7730292]Ashutosh Sundresh[/MENTION]//
+
+[/CENTER]
