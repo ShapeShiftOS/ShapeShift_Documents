@@ -113,21 +113,15 @@ November 18th: Version 2.0.1-Mudkip
 - Add atoll support
 - Fix audio hal compilation on 4.14
 - Per-app cellular data, vpn and wifi restrictions
-- Removed a few features from 2.0 November 3rd which were buggy
 
 ---------------------------------------------------------------------------------------------------------------------
 
 November 3rd: Version 2.0-Unstamble
 
 - r15 November Security Patch
-- FOD animations and picker
-- Reboot/Recovery tile
 - Caffeine tile
 - Dataswitch tile
-- VOOC and Warp charging support
 - Disable fp vibration if haptics are disabled
-- Delete button in screenshot UI
-- 90, 180 and 270 degree rotation
 
 ---------------------------------------------------------------------------------------------------------------------
 
