@@ -25,6 +25,11 @@ If your device has an AMOLED screen, add this to your overlays overlay/framework
 >>       <bool name="config_enableBurnInProtection">true</bool>
 # FOD
 
+In order to enable the FOD HAL, you have to set this in overlay/frameworks/base/core/res/res/values/config.xml:
+
+>>        <!-- Shows the required view for in-display fingerprint -->
+>>        <bool name="config_supportsInDisplayFingerprint">true</bool>
+
 We use LineageOS's FOD implementation. Check this device tree if you want any [**reference**](https://github.com/ShapeShiftOS-Devices/device_oneplus_fajita/tree/android_11)
 
 # Screen off FOD
@@ -52,4 +57,24 @@ Add this to your overlays overlay/frameworks/base/core/res/res/values/config.xml
 >>         <!-- Max visible notification icons -->
 >>         <integer name="config_maxVisibleNotificationIcons">4</integer>
 >>         <integer name="config_maxVisibleNotificationIconsOnLock">5</integer>
+
+
+# Face Unlock
+
+Face unlock is also enabled by default. In case your device doesn't support it, set this in your ssos_device.mk:
+
+>>        TARGET_FACE_UNLOCK_SUPPORTED := false
+
+You can also enable face unlock only on swipe by setting this in overlay/frameworks/base/core/res/res/values/config.xml:
+
+>>        <!-- Enable face auth only when swiping security view -->
+>>        <bool name="config_faceAuthOnSecurityView">true</bool>
+
+
+# Maintainer info
+
+In ShapeShiftOS, maintainers can show their name in the about dialog in ShapeShifter.
+
+To find out the overlays needed for this, take a look [**here**](
+https://github.com/ShapeShiftOS-Devices/device_oneplus_fajita/commit/667e12d4bca90c6d942bfdbeeb8917feb3016e42)
 
