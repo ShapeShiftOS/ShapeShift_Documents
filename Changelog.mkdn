@@ -3,52 +3,118 @@ ________________________________________________________________________________
 
 Source Changelog: 
 
-- Redesign Settings dashboard
-- Redesign some drawables to OOS style
-- ShapeShifter is back and redesigned
-- Add easter egg to about phone
-- Protect IMEI info in about phone
-- Add font, system icons, adaptive icon shape and accent picker
-- Update default accent and improve theming system wide
-- Fix default pixel sounds
-- Update inter fonts 
-- Update GApps prebuilts
-- Battery bar
-- Statusbar clock and date customization
-- Pixel navbar and inversion
-- Volume rocker invert on landscape, cursor, wake and seek tracks
-- Adaptive playback
-- Swipe up on keyguard to use faceunlock
-- Redesign powermenu
-- Redesign SettingsIntelligence
-- Horizon lights
-- Heads up blacklist, whitelist, snooze and timeout
-- Fix now playing crash
-- Wake on plug
-- Lockscreen media art with filters
-- Optional haptic feedback on qs tiles and optional disable qs tiles on lockscreen
-- QS rows and columns sliders
-- Alert slider dialogs
-- Wireless charging animation for wired charging
-- Ringtone audio focus customization
-- Ambient music ticker 
-- Statusbar tuner
-- Quick unlock and scramble pin
-- Dismiss notifications by swiping fingerprint 
-- AOD, usb tethering and compass tiles
-- Burnin protection
-- Redesign DocumentsUI
-- Add cards and passes to powermenu
-- Add atoll support
-- Fix audio hal compilation on 4.14
-- Per-app cellular data, vpn and wifi restrictions
-- Removed a few features from 2.0 November 3rd which were buggy
-
+- Merge r20 December AOSP tag
+- new accent picker with interactive preview
+- Fixed date view sometimes disappearing from clocks
+- Fixed dots truncation of lockscreen date
+- Improved ShapeShifter UI
+- Allow to suppress notification sound when screen is on
+- Divided lines clock
+- Add Pixel Props to spoof Google apps
+- improvements to fod performance and hiding when lockscreen is dismissed
+- Flashlight blink on incoming call settings
+- Allow enforcing time between notification sounds of an app
+- Fix double tap to wake on AOD
+- Allow setting gesture back swipe deadzone
+- screen off fod
+- allow disabling night light on fod
+- advanced reboot
+- oos vibration patterns
+- incall vibration options
+- lockscreen bottom shortcuts
+- improve systemui-wide font setting
+- refresh rate setting
+- make vibration disabling on battery saver optional
+- add an overlay to hide Selinux status in about phone
+- Add 4.19 support
+- pixel 5 overlays
+- fix miracast
+- add support for custom clang
+- add prebuilt pixel sounds app
+- dynamic partition backuptool support
+- force disable now playing
+- properly theme screenshot ui buttons
+- lockscreen pattern size, dots visibility and pattern visibility
+- make more tiles secure on keyguard
+- options to hide assistant handles
+- option to hide or center notification headers
+- option to allow hotspot upstreams to use vpn
+- screen off animations
+- option to mute media with gestures
+- fix horizon lights with sensitive notification content
+- tux clock
+- improvements to screenshotui colours
+- delete button in screenshotui
+- reading mode, music and sound search tile
+- 4g instead of LTE switch
+- volte icon picker
+- statusbar nfc icon
+- optional fingerprint icon on lockscreen
+- aggressive battery saver
+- double tap to sleep on lockscreen and statusbar
+- long press power to toggle torch
+- google sans font
 _____________________________________________________________________________________________________________________________
 
 <Please don't copy older changelogs. They are for reference.>
 
 Older Changelogs:
+
+---------------------------------------------------------------------------------------------------------------------
+
+December 25: Version 2.1-Delibird
+
+- Merge r20 December AOSP tag
+- new accent picker with interactive preview
+- Fixed date view sometimes disappearing from clocks
+- Fixed dots truncation of lockscreen date
+- Improved ShapeShifter UI
+- Allow to suppress notification sound when screen is on
+- Divided lines clock
+- Add Pixel Props to spoof Google apps
+- improvements to fod performance and hiding when lockscreen is dismissed
+- Flashlight blink on incoming call settings
+- Allow enforcing time between notification sounds of an app
+- Fix double tap to wake on AOD
+- Allow setting gesture back swipe deadzone
+- screen off fod
+- allow disabling night light on fod
+- advanced reboot
+- oos vibration patterns
+- incall vibration options
+- lockscreen bottom shortcuts
+- improve systemui-wide font setting
+- refresh rate setting
+- make vibration disabling on battery saver optional
+- add an overlay to hide Selinux status in about phone
+- Add 4.19 support
+- pixel 5 overlays
+- fix miracast
+- add support for custom clang
+- add prebuilt pixel sounds app
+- dynamic partition backuptool support
+- force disable now playing
+- properly theme screenshot ui buttons
+- lockscreen pattern size, dots visibility and pattern visibility
+- make more tiles secure on keyguard
+- options to hide assistant handles
+- option to hide or center notification headers
+- option to allow hotspot upstreams to use vpn
+- screen off animations
+- option to mute media with gestures
+- fix horizon lights with sensitive notification content
+- tux clock
+- improvements to screenshotui colours
+- delete button in screenshotui
+- reading mode, music and sound search tile
+- 4g instead of LTE switch
+- volte icon picker
+- statusbar nfc icon
+- optional fingerprint icon on lockscreen
+- aggressive battery saver
+- double tap to sleep on lockscreen and statusbar
+- long press power to toggle torch
+- google sans font
 
 ---------------------------------------------------------------------------------------------------------------------
 
