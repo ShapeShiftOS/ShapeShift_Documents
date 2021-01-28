@@ -1,13 +1,11 @@
 # Preparing ShapeShiftOS ROM for devices
 - For building ShapeShiftOS for your device for Android 11, the lunch target is lunch ssos_devicecodename. Of course, we do require some additional overlays in your tree to make the best out of ShapeShiftOS.
 
-# Product Namespaces
+# Product Namespaces (HALs)
 
-SSOS has proper product/board variable separation.
-
-Add to your device tree's device.mk or common.mk
->>           PRODUCT_BOARD_PLATFORM := (board name, ex. trinket, msmnile, sdm845)
->>           PRODUCT_USES_QCOM_HARDWARE := true
+Add to your device tree's BoardConfig.mk or BoardConfigCommon.mk
+>>           TARGET_BOARD_PLATFORM := (board name, ex. trinket, msmnile, sdm845)
+>>           BOARD_USES_QCOM_HARDWARE := true
 
 # Notch hiding
 
