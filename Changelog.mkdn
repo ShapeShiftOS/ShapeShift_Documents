@@ -56,6 +56,7 @@ Source Changelog:
 - settings panel intents for qs tiles
 - volume steps
 - signature spoofing
+- allow disabling app from crash dialog
 - stability improvements
 _____________________________________________________________________________________________________________________________
 
@@ -120,6 +121,7 @@ January 28: Version 2.2-Marshtomp
 - settings panel intents for qs tiles
 - volume steps
 - signature spoofing
+- allow disabling app from crash dialog
 - stability improvements
 
 ---------------------------------------------------------------------------------------------------------------------
