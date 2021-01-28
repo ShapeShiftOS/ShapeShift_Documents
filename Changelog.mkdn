@@ -3,62 +3,124 @@ ________________________________________________________________________________
 
 Source Changelog: 
 
-- Merge r20 December AOSP tag
-- new accent picker with interactive preview
-- Fixed date view sometimes disappearing from clocks
-- Fixed dots truncation of lockscreen date
-- Improved ShapeShifter UI
-- Allow to suppress notification sound when screen is on
-- Divided lines clock
-- Add Pixel Props to spoof Google apps
-- improvements to fod performance and hiding when lockscreen is dismissed
-- Flashlight blink on incoming call settings
-- Allow enforcing time between notification sounds of an app
-- Fix double tap to wake on AOD
-- Allow setting gesture back swipe deadzone
-- screen off fod
-- allow disabling night light on fod
-- advanced reboot
-- oos vibration patterns
-- incall vibration options
-- lockscreen bottom shortcuts
-- improve systemui-wide font setting
-- refresh rate setting
-- make vibration disabling on battery saver optional
-- add an overlay to hide Selinux status in about phone
-- Add 4.19 support
-- pixel 5 overlays
-- fix miracast
-- add support for custom clang
-- add prebuilt pixel sounds app
-- dynamic partition backuptool support
-- force disable now playing
-- properly theme screenshot ui buttons
-- lockscreen pattern size, dots visibility and pattern visibility
-- make more tiles secure on keyguard
-- options to hide assistant handles
-- option to hide or center notification headers
-- option to allow hotspot upstreams to use vpn
-- screen off animations
-- option to mute media with gestures
-- fix horizon lights with sensitive notification content
-- tux clock
-- improvements to screenshotui colours
-- delete button in screenshotui
-- reading mode, music and sound search tile
-- 4g instead of LTE switch
-- volte icon picker
-- statusbar nfc icon
-- optional fingerprint icon on lockscreen
-- aggressive battery saver
-- double tap to sleep on lockscreen and statusbar
-- long press power to toggle torch
-- google sans font
+- January security patch
+- OOS style about phone page
+- lockscreen tuner
+- redesigned quicksettings
+- allow toggling media player in qs
+- pulse audio visualizer
+- fixed widgets and bubbles crashing
+- redesigned brightness slider
+- Less boring heads up option
+- battery styles
+- Fluid clock ported from 10 and fixed on ambient display
+- Pocket judge from aospa
+- updated pixel prop utils
+- reverse engineered new fluid theme previews with some improvements
+- hide back arrow in gestures
+- haptic feedback for back arrow in gestures
+- redesign ambient music ticker
+- updated pixel sounds from coral
+- Google Sans / Google Sans font package (in addition to Sans Serif / Google Sans)
+- improved alert slider dialogs
+- improve shapeshifter ui
+- open app when clicking on icon in app info
+- RGB accent picker
+- fixed lockscreen wallpapers
+- add private dns drawable
+- custom dpi settings moved to display
+- headphones output switcher tile
+- option to disable data disabled icon
+- sync tile
+- added delete button to screenshot notification
+- fixed live walls
+- added settings suggestions
+- OnePlus slate and Linotte font
+- replace pixel launcher with shapeshift launcher3 fork
+- new network traffic impl
+- posp volume styles
+- 3 finger screenshot
+- auto rotation options
+- swipe on statusbar to adjust brightness
+- QS tint tiles with accent
+- Old style mobile data
+- VOOC charging support
+- double tap to trigger doze
+- option to show percentage on ambient display
+- option to hide lockscreen statusbar
+- option to hide lockscreen lock icon
+- linked notif and ring volume toggle
+- update pixelproputils
+- allow changing gesture handle length and hiding it
+- statusbar wifi indicators
+- settings panel intents for qs tiles
+- volume steps
+- signature spoofing
+- stability improvements
 _____________________________________________________________________________________________________________________________
 
 <Please don't copy older changelogs. They are for reference.>
 
 Older Changelogs:
+
+---------------------------------------------------------------------------------------------------------------------
+
+January 28: Version 2.2-Marshtomp
+
+- January security patch
+- OOS style about phone page
+- lockscreen tuner
+- redesigned quicksettings
+- allow toggling media player in qs
+- pulse audio visualizer
+- fixed widgets and bubbles crashing
+- redesigned brightness slider
+- Less boring heads up option
+- battery styles
+- Fluid clock ported from 10 and fixed on ambient display
+- Pocket judge from aospa
+- updated pixel prop utils
+- reverse engineered new fluid theme previews with some improvements
+- hide back arrow in gestures
+- haptic feedback for back arrow in gestures
+- redesign ambient music ticker
+- updated pixel sounds from coral
+- Google Sans / Google Sans font package (in addition to Sans Serif / Google Sans)
+- improved alert slider dialogs
+- improve shapeshifter ui
+- open app when clicking on icon in app info
+- RGB accent picker
+- fixed lockscreen wallpapers
+- add private dns drawable
+- custom dpi settings moved to display
+- headphones output switcher tile
+- option to disable data disabled icon
+- sync tile
+- added delete button to screenshot notification
+- fixed live walls
+- added settings suggestions
+- OnePlus slate and Linotte font
+- replace pixel launcher with shapeshift launcher3 fork
+- new network traffic impl
+- posp volume styles
+- 3 finger screenshot
+- auto rotation options
+- swipe on statusbar to adjust brightness
+- QS tint tiles with accent
+- Old style mobile data
+- VOOC charging support
+- double tap to trigger doze
+- option to show percentage on ambient display
+- option to hide lockscreen statusbar
+- option to hide lockscreen lock icon
+- linked notif and ring volume toggle
+- update pixelproputils
+- allow changing gesture handle length and hiding it
+- statusbar wifi indicators
+- settings panel intents for qs tiles
+- volume steps
+- signature spoofing
+- stability improvements
 
 ---------------------------------------------------------------------------------------------------------------------
 
