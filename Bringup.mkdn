@@ -3,9 +3,11 @@
 
 # Product Namespaces (HALs)
 
-Add to your device tree's BoardConfig.mk or BoardConfigCommon.mk
->>           TARGET_BOARD_PLATFORM := (board name, ex. trinket, msmnile, sdm845)
->>           BOARD_USES_QCOM_HARDWARE := true
+SSOS has proper product/board variable separation.
+
+Add to your device tree's device.mk or common.mk
+>>           PRODUCT_BOARD_PLATFORM := (board name, ex. trinket, msmnile, sdm845)
+>>           PRODUCT_USES_QCOM_HARDWARE := true
 
 # Notch hiding
 
