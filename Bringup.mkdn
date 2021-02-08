@@ -48,6 +48,18 @@ If your device supports Dash Charging, add this to your overlays overlay/framewo
 >>        <!-- Whether device has dash charging support -->
 >>        <bool name="config_hasDashCharger">true</bool>
 
+
+# VOOC charging
+
+If your device supports VOOC charging, add this to your overlays overlay/frameworks/base/core/res/res/values/config.xml:
+
+>>        <!-- Whether device has vooc charging support -->
+>>        <bool name="config_hasVoocCharger">true</bool>
+
+# Smart Charging
+
+Refer to this [**commit**](https://github.com/ShapeShiftOS-Devices/device_oneplus_sdm845-common/commit/bbac6fb681dddae68b24b88e49ec6ae934223681) for enabling Smart Charging on your device
+
 # Statusbar Icons
 
 Configuring maximum icons in statusbar are different in ShapeShiftOS. They have been moved to internal from SystemUI, to configure:
