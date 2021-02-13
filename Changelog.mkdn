@@ -4,7 +4,7 @@ ________________________________________________________________________________
 Source Changelog: 
 
 - February security patch
-- import manrope and OnePlus Sans font package
+- import manrope font package
 - add unlinked notification volume support to compact and aosp expanded volume panels
 - option to not launch app when touching on headsup
 - add hw keys customization
@@ -22,20 +22,24 @@ Source Changelog:
 - update screen off fod check
 - added fingerprint auth & error vibration toggle
 - notification counters in statusbar
+- improved notification header toggle
 - clipboard toast toggle
 - lockscreen charging animation toggle
 - extend pulse to ambient display
 - ringtone for multi sim
+- add OnePlus sans font package
 - add gesture bar radius option
 - add screenshot sound toggle
 - add option to disable vibration separately when charging
 - Sfuny lockscreen clock
+- 404 IDE clock
 - fix some problems with padding with punch-hole cutout
 - fix crashes with brightness slider
 - fix fluid clock preview
 - fix a lot of google features
 - fix some crashes in settings
 - fix random reboots with data tile
+- fix wifi detail view
 
 _____________________________________________________________________________________________________________________________
 
@@ -48,7 +52,7 @@ Older Changelogs:
 February 13th 2021: Version 2.3-Swampert
 
 - February security patch
-- import manrope and OnePlus Sans font package
+- import manrope font package
 - add unlinked notification volume support to compact and aosp expanded volume panels
 - option to not launch app when touching on headsup
 - add hw keys customization
@@ -66,21 +70,24 @@ February 13th 2021: Version 2.3-Swampert
 - update screen off fod check
 - added fingerprint auth & error vibration toggle
 - notification counters in statusbar
+- improved notification header toggle
 - clipboard toast toggle
 - lockscreen charging animation toggle
 - extend pulse to ambient display
 - ringtone for multi sim
+- add OnePlus sans font package
 - add gesture bar radius option
 - add screenshot sound toggle
 - add option to disable vibration separately when charging
 - Sfuny lockscreen clock
+- 404 IDE clock
 - fix some problems with padding with punch-hole cutout
 - fix crashes with brightness slider
 - fix fluid clock preview
 - fix a lot of google features
 - fix some crashes in settings
 - fix random reboots with data tile
-
+- fix wifi detail view
 ---------------------------------------------------------------------------------------------------------------------
 
 January 28th 2021: Version 2.2-Marshtomp
