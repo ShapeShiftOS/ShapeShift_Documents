@@ -3,61 +3,40 @@ ________________________________________________________________________________
 
 Source Changelog: 
 
-- January security patch
-- OOS style about phone page
-- lockscreen tuner
-- redesigned quicksettings
-- allow toggling media player in qs
-- pulse audio visualizer
-- fixed widgets and bubbles crashing
-- redesigned brightness slider
-- Less boring heads up option
-- battery styles
-- Fluid clock ported from 10 and fixed on ambient display
-- Pocket judge from aospa
-- updated pixel prop utils
-- reverse engineered new fluid theme previews with some improvements
-- hide back arrow in gestures
-- haptic feedback for back arrow in gestures
-- redesign ambient music ticker
-- updated pixel sounds from coral
-- Google Sans / Google Sans font package (in addition to Sans Serif / Google Sans)
-- improved alert slider dialogs
-- improve shapeshifter ui
-- open app when clicking on icon in app info
-- RGB accent picker
-- fixed lockscreen wallpapers
-- add private dns drawable
-- custom dpi settings moved to display
-- headphones output switcher tile
-- option to disable data disabled icon
-- sync tile
-- added delete button to screenshot notification
-- fixed live walls
-- added settings suggestions
-- OnePlus slate and Linotte font
-- replace pixel launcher with shapeshift launcher3 fork
-- new network traffic impl
-- posp volume styles
-- 3 finger screenshot
-- auto rotation options
-- swipe on statusbar to adjust brightness
-- QS tint tiles with accent
-- Old style mobile data
-- VOOC charging support
-- double tap to trigger doze
-- option to show percentage on ambient display
-- option to hide lockscreen statusbar
-- option to hide lockscreen lock icon
-- linked notif and ring volume toggle
-- update pixelproputils
-- allow changing gesture handle length and hiding it
-- statusbar wifi indicators
-- settings panel intents for qs tiles
-- volume steps
-- signature spoofing
-- allow disabling app from crash dialog
-- stability improvements
+- February security patch
+- import manrope and OnePlus Sans font package
+- add unlinked notification volume support to compact and aosp expanded volume panels
+- option to not launch app when touching on headsup
+- add hw keys customization
+- smart pixels
+- smart charging
+- option to reset battery stats
+- material design toasts
+- allow using horizon light for all doze triggers
+- allow choosing faded or solid horizon lights
+- allow reversing horizon light animation
+- improved low quality screenrecordings
+- battery light customization
+- fod animation picker
+- fod icon picker
+- update screen off fod check
+- added fingerprint auth & error vibration toggle
+- notification counters in statusbar
+- clipboard toast toggle
+- lockscreen charging animation toggle
+- extend pulse to ambient display
+- ringtone for multi sim
+- add gesture bar radius option
+- add screenshot sound toggle
+- add option to disable vibration separately when charging
+- Sfuny lockscreen clock
+- fix some problems with padding with punch-hole cutout
+- fix crashes with brightness slider
+- fix fluid clock preview
+- fix a lot of google features
+- fix some crashes in settings
+- fix random reboots with data tile
+
 _____________________________________________________________________________________________________________________________
 
 <Please don't copy older changelogs. They are for reference.>
@@ -66,7 +45,45 @@ Older Changelogs:
 
 ---------------------------------------------------------------------------------------------------------------------
 
-January 28: Version 2.2-Marshtomp
+February 13th 2021: Version 2.3-Swampert
+
+- February security patch
+- import manrope and OnePlus Sans font package
+- add unlinked notification volume support to compact and aosp expanded volume panels
+- option to not launch app when touching on headsup
+- add hw keys customization
+- smart pixels
+- smart charging
+- option to reset battery stats
+- material design toasts
+- allow using horizon light for all doze triggers
+- allow choosing faded or solid horizon lights
+- allow reversing horizon light animation
+- improved low quality screenrecordings
+- battery light customization
+- fod animation picker
+- fod icon picker
+- update screen off fod check
+- added fingerprint auth & error vibration toggle
+- notification counters in statusbar
+- clipboard toast toggle
+- lockscreen charging animation toggle
+- extend pulse to ambient display
+- ringtone for multi sim
+- add gesture bar radius option
+- add screenshot sound toggle
+- add option to disable vibration separately when charging
+- Sfuny lockscreen clock
+- fix some problems with padding with punch-hole cutout
+- fix crashes with brightness slider
+- fix fluid clock preview
+- fix a lot of google features
+- fix some crashes in settings
+- fix random reboots with data tile
+
+---------------------------------------------------------------------------------------------------------------------
+
+January 28th 2021: Version 2.2-Marshtomp
 
 - January security patch
 - OOS style about phone page
@@ -126,7 +143,7 @@ January 28: Version 2.2-Marshtomp
 
 ---------------------------------------------------------------------------------------------------------------------
 
-December 25: Version 2.1-Delibird
+December 25th 2020: Version 2.1-Delibird
 
 - Merge r20 December AOSP tag
 - new accent picker with interactive preview
@@ -182,7 +199,7 @@ December 25: Version 2.1-Delibird
 
 ---------------------------------------------------------------------------------------------------------------------
 
-November 19th: Version 2.0.1-Mudkip
+November 19th 2020: Version 2.0.1-Mudkip
 
 
 - Fix HeadsUp snooze causing SystemUI crash
@@ -202,7 +219,7 @@ November 19th: Version 2.0.1-Mudkip
 
 ---------------------------------------------------------------------------------------------------------------------
 
-November 18th: Version 2.0.1-Mudkip
+November 18th 2020: Version 2.0.1-Mudkip
 
 - Redesign Settings dashboard
 - Redesign some drawables to OOS style
@@ -246,7 +263,7 @@ November 18th: Version 2.0.1-Mudkip
 
 ---------------------------------------------------------------------------------------------------------------------
 
-November 3rd: Version 2.0-Unstamble
+November 3rd 2020: Version 2.0-Unstamble
 
 - r15 November Security Patch
 - Caffeine tile
@@ -255,7 +272,7 @@ November 3rd: Version 2.0-Unstamble
 
 ---------------------------------------------------------------------------------------------------------------------
 
-November 2nd: Version 2.0-Unstamble
+November 2nd 2020: Version 2.0-Unstamble
 
 - Prebuilt GApps
 - Some Pixel stuff like lockscreen weather and feature impl in Settings
@@ -282,7 +299,7 @@ November 2nd: Version 2.0-Unstamble
 
 ---------------------------------------------------------------------------------------------------------------------
 
-October 18th: Version 1.2.1-Blaziken
+October 18th 2020: Version 1.2.1-Blaziken
 
 - Add per app notification control for applocker
 - Fix managed accounts with applocker
@@ -291,7 +308,7 @@ October 18th: Version 1.2.1-Blaziken
 
 ---------------------------------------------------------------------------------------------------------------------
 
-October 8th: Version 1.2.1-Blaziken
+October 8th 2020: Version 1.2.1-Blaziken
 
 - Add back WPS implementation
 - Add heart icon shape overlay from Android R (lmao)
@@ -316,15 +333,14 @@ October 8th: Version 1.2.1-Blaziken
 
 ---------------------------------------------------------------------------------------------------------------------
 
-September 15th: Version 1.2-Blaziken
+September 15th 2020: Version 1.2-Blaziken
 
 - Fix force fingerprint after reboot on FOD devices
 - Update Lawnchair prebuilt
 
 ---------------------------------------------------------------------------------------------------------------------
 
-September 12th:
-Version 1.2-Blaziken
+September 12th 2020: Version 1.2-Blaziken
 
 - September Security Patch
 - POSP volume styles
@@ -386,8 +402,7 @@ Version 1.2-Blaziken
 
 ---------------------------------------------------------------------------------------------------------------------
 
-August 4th:
-Version 1.1.1-Torchic
+August 4th 2020: Version 1.1.1-Torchic
 
 - August Security Patch
 - Expanded MIUI volume slider with layout change animations (Work In Progress)
@@ -433,8 +448,7 @@ Version 1.1.1-Torchic
 
 ----------------------------------------------------------------------------------------------------------------------
 
-July 5th:
-Version 1.1-Gyarados
+July 5th 2020: Version 1.1-Gyarados
 
 - Rewrite and fix Dash charging
 - Add FODAnimation Picker with 22 animations to pick from
@@ -487,8 +501,7 @@ Version 1.1-Gyarados
 
 ----------------------------------------------------------------------------------------------------------------------
 
-June 1st:
-Version 1.0.3-Magikarp
+June 1st 2020: Version 1.0.3-Magikarp
 
 - Rewrite Network Traffic Indicator implementation
 - Rewrite Lawnchair Implementation
@@ -507,8 +520,7 @@ Version 1.0.3-Magikarp
 
 ----------------------------------------------------------------------------------------------------------------------
 
-May 27th:
-Version 1.0.2-Progressive
+May 27th 2020: Version 1.0.2-Progressive
 
 - Add Lineage Touch HAL Support (Not for all devices)
 - Cleanup ConfigCenter
@@ -517,8 +529,7 @@ Version 1.0.2-Progressive
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-May 24th:
-Version 1.0.2-Progressive
+May 24th 2020: Version 1.0.2-Progressive
 
 - Rebrand from ExtendedReborn to ShapeShiftOS
 - Complete upstream with PixelExperience sources
@@ -540,8 +551,7 @@ Version 1.0.2-Progressive
 
 ----------------------------------------------------------------------------------------------------------------------
 
-May 20th:
-Version 1.0.1-Crayfish
+May 20th 2020: Version 1.0.1-Crayfish
 
 - Added Bootleggers Clocks
 - Added themed Asus Stitch Image
@@ -557,8 +567,7 @@ Version 1.0.1-Crayfish
 
 ----------------------------------------------------------------------------------------------------------------------
 
-May 15th:
-Version 1.0-Lobster
+May 15th 2020: Version 1.0-Lobster
 
 - Initial Release
 
