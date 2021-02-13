@@ -36,10 +36,16 @@ We use LineageOS's FOD implementation. Check this device tree if you want any [*
 
 To get screen off FOD, you first need screen off FOD support in your device tree. There is also an overlay you need to add to your tree.
 
-To overlay/frameworks/base/core/res/res/values/config.xml
+To overlay/packages/apps/Settings/res/values/config.xml
 
 >>        <!-- Whether device has screen off FOD support -->
 >>        <bool name="config_supportScreenOffFod">true</bool>
+
+# Screen off FOD
+
+To get FOD animations, add this flag to your ssos_device.mk
+
+>>         EXTRA_FOD_ANIMATIONS := true
 
 # Dash Charging
 
