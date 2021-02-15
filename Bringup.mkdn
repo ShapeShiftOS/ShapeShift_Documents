@@ -41,7 +41,7 @@ To overlay/packages/apps/Settings/res/values/config.xml
 >>        <!-- Whether device has screen off FOD support -->
 >>        <bool name="config_supportScreenOffFod">true</bool>
 
-# Screen off FOD
+# FOD Animations
 
 To get FOD animations, add this flag to your ssos_device.mk
 
