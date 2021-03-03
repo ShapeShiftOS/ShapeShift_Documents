@@ -3,43 +3,22 @@ ________________________________________________________________________________
 
 Source Changelog: 
 
-- February security patch
-- import manrope font package
-- add unlinked notification volume support to compact and aosp expanded volume panels
-- option to not launch app when touching on headsup
-- add hw keys customization
-- smart pixels
-- smart charging
-- option to reset battery stats
-- material design toasts
-- allow using horizon light for all doze triggers
-- allow choosing faded or solid horizon lights
-- allow reversing horizon light animation
-- improved low quality screenrecordings
-- battery light customization
-- fod animation picker
-- fod icon picker
-- update screen off fod check
-- added fingerprint auth & error vibration toggle
-- notification counters in statusbar
-- improved notification header toggle
-- clipboard toast toggle
-- lockscreen charging animation toggle
-- extend pulse to ambient display
-- ringtone for multi sim
-- add OnePlus sans font package
-- add gesture bar radius option
-- add screenshot sound toggle
-- add option to disable vibration separately when charging
-- Sfuny lockscreen clock
-- 404 IDE clock
-- fix some problems with padding with punch-hole cutout
-- fix crashes with brightness slider
-- fix fluid clock preview
-- fix a lot of google features
-- fix some crashes in settings
-- fix random reboots with data tile
-- fix wifi detail view
+- March Security Patch (r33 tag)
+- Gaming mode
+- Automated DC Dimming (for devices that support it)
+- Rearrange FOD Stuff to new category
+- Switch to OOS Style Data Indicators
+- Add slider to adjust lockscreen media blur
+- Remove Black QS status bar background
+- Text Clock Translation Improvements
+- Add more cute fod icons 
+- Allow to show daily data usage
+- Data Usage on QS Footer
+- Bring back QS drag handle with some improvements
+- Fix IDE Clock Preview
+- add toggle for qs battery estimates
+- Replace DocumentsUI with OnePlus File Manager
+- Fixes and improvements
 
 _____________________________________________________________________________________________________________________________
 
@@ -48,6 +27,28 @@ ________________________________________________________________________________
 Older Changelogs:
 
 ---------------------------------------------------------------------------------------------------------------------
+
+March 3rd 2021: Version 2.4-Treecko
+
+- March Security Patch (r33 tag)
+- Gaming mode
+- Automated DC Dimming (for devices that support it)
+- Rearrange FOD Stuff to new category
+- Switch to OOS Style Data Indicators
+- Add slider to adjust lockscreen media blur
+- Remove Black QS status bar background
+- Text Clock Translation Improvements
+- Add more cute fod icons 
+- Allow to show daily data usage
+- Data Usage on QS Footer
+- Bring back QS drag handle with some improvements
+- Fix IDE Clock Preview
+- add toggle for qs battery estimates
+- Replace DocumentsUI with OnePlus File Manager
+- Fixes and improvements
+
+---------------------------------------------------------------------------------------------------------------------
+
 
 February 13th 2021: Version 2.3-Swampert
 
