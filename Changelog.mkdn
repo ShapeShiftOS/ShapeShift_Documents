@@ -3,28 +3,59 @@ ________________________________________________________________________________
 
 Source Changelog: 
 
-- March Security Patch (r33 tag)
-- Gaming mode
-- Automated DC Dimming (for devices that support it)
-- Rearrange FOD Stuff to new category
-- Switch to OOS Style Data Indicators
-- Add slider to adjust lockscreen media blur
-- Remove Black QS status bar background
-- Text Clock Translation Improvements
-- Add more cute fod icons 
-- Allow to show daily data usage
-- Data Usage on QS Footer
-- Bring back QS drag handle with some improvements
-- Fix IDE Clock Preview
-- add toggle for qs battery estimates
-- Replace DocumentsUI with OnePlus File Manager
-- Fixes and improvements
+- fix dpi issues with prebuilt accent picker
+- add oos 11 style qs tint option
+- improve oos 11 style qs
+- fix disabled switchbar colour in settings
+- fix some issues with multisim ringtone
+- fix inconsistencies with statusbar icon sizes
+- fix blur disappearing sometimes in launcher
+- move kill app to app shortcut menu in recents
+- switch to old recents buttons (new redesign soon™)
+- added top/bottom gradient toggles in launcher
+- reduce flickering of battery percentage in statusbar
+- add light variants of OnePlus sans and OnePlus slate font
+- extend daily usage to qs footer data usage
+- add livedisplay
+- add more fod icons
+- add applock
+- add asus long screenshot
+- add scheduled aod
+- allow to use faceunlock as auth method for apps
+- nuke OnePlus file manager from manifest
+- nuke assistant handle toggles
 
 _____________________________________________________________________________________________________________________________
 
 <Please don't copy older changelogs. They are for reference.>
 
 Older Changelogs:
+
+---------------------------------------------------------------------------------------------------------------------
+
+March 29th 2021: Version 2.4.1-Treecko
+
+- fix dpi issues with prebuilt accent picker
+- add oos 11 style qs tint option
+- improve oos 11 style qs
+- fix disabled switchbar colour in settings
+- fix some issues with multisim ringtone
+- fix inconsistencies with statusbar icon sizes
+- fix blur disappearing sometimes in launcher
+- move kill app to app shortcut menu in recents
+- switch to old recents buttons (new redesign soon™)
+- added top/bottom gradient toggles in launcher
+- reduce flickering of battery percentage in statusbar
+- add light variants of OnePlus sans and OnePlus slate font
+- extend daily usage to qs footer data usage
+- add livedisplay
+- add more fod icons
+- add applock
+- add asus long screenshot
+- add scheduled aod
+- allow to use faceunlock as auth method for apps
+- nuke OnePlus file manager from manifest
+- nuke assistant handle toggles
 
 ---------------------------------------------------------------------------------------------------------------------
 
