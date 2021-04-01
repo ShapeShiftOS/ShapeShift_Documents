@@ -1,4 +1,4 @@
-Title: [ROM][11.0_r27][UNOFFICIAL][STABLE] ShapeShiftOS [DEVICE_CODENAME]
+Title: [ROM][11.0_r33][UNOFFICIAL][STABLE] ShapeShiftOS [DEVICE_CODENAME]
 
 -----------------------------------------------------------------------------
 
@@ -33,7 +33,7 @@ ShapeShiftOS is a custom-rom based on AOSP that aims to provide a different user
 - OOS style switches and QS layout
 - Blurred powermenu background
 - Custom QS tiles
-- Custom clocks from 10
+- Custom clocks 
 - Wake on plug
 - Lockscreen media art with filters
 - Optional haptic feedback on qs tiles and optional disable qs tiles on lockscreen
@@ -45,22 +45,15 @@ ShapeShiftOS is a custom-rom based on AOSP that aims to provide a different user
 - Statusbar tuner
 - Quick unlock and scramble pin
 - Dismiss notifications by swiping fingerprint 
-- AOD, usb tethering and compass tiles
 - Burnin protection
 - Redesign DocumentsUI
 - cards and passes in powermenu
-- AOKP custom system animations
-- Animations for qs tiles
-- Interpolators for qs tiles
-- Listanimation views and Interpolators
-- Toast animations
-- Scrolling cache options
-- Allow disabling animations
+- OOS 11 style QS
 - Network Traffic Indicators
 - Battery bar
 - Statusbar clock and date customization
 - Pixel navbar and inversion
-- Volume rocker invert on landscape, cursor, wake and seek tracks
+- Volume rocker invert on landscape, cursor and seek tracks
 - Adaptive playback
 - Face unlock
 - Swipe up on keyguard to use faceunlock
