@@ -75,7 +75,17 @@ Add this to your overlays overlay/frameworks/base/core/res/res/values/config.xml
 >>         <!-- Max visible notification icons -->
 >>         <integer name="config_maxVisibleNotificationIcons">4</integer>
 >>         <integer name="config_maxVisibleNotificationIconsOnLock">5</integer>
+>>         
 
+# Vibrate on icon animation
+
+Configuration for this overlay is different in SSOS. It has been  moved to internal from SystemUI, to configure:
+
+Add this to your overlays overlay/frameworks/base/core/res/res/values/config.xml:
+
+>>           <!-- Should we vibrate on an icon animation of the shelf. This should only be active if the
+>>           vibrator is capable of subtle vibrations -->
+>>           <bool name="config_vibrateOnIconAnimation">true</bool>
 
 # Face Unlock
 
