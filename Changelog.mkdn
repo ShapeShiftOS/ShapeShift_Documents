@@ -3,33 +3,63 @@ ________________________________________________________________________________
 
 Source Changelog: 
 
-- fix dpi issues with prebuilt accent picker
-- add oos 11 style qs tint option
-- improve oos 11 style qs
-- fix disabled switchbar colour in settings
-- fix some issues with multisim ringtone
-- fix inconsistencies with statusbar icon sizes
-- fix blur disappearing sometimes in launcher
-- move kill app to app shortcut menu in recents
-- switch to old recents buttons (new redesign soon™)
-- added top/bottom gradient toggles in launcher
-- reduce flickering of battery percentage in statusbar
-- add light variants of OnePlus sans and OnePlus slate font
-- extend daily usage to qs footer data usage
-- add livedisplay
-- add more fod icons
-- add applock
-- add asus long screenshot
-- add scheduled aod
-- allow to use faceunlock as auth method for apps
-- nuke OnePlus file manager from manifest
-- nuke assistant handle toggles
+- April security patch
+- import oos volume bar icons
+- add lineage powerhal to custom interfaces
+- update gapps package
+- a new default wallpaper
+- add back shapeshift walls with new ones for 11
+- add extreme battery saver
+- small changes to settingsintelligence ui
+- add dynamic volte/vowifi icons
+- improve refresh rate switching
+- add time spent in app from wellbeing to app info page
+- redesign recents buttons
+- improve alert slider dialog animations
+- use md2 icons for gaming mode
+- new shapeshift clock
+- increase scrim to 90% in launcher light theme
+- show temperature in battery info page
+- add animation to battery header in battery info page
+- add per app sensor blocking
+- add fps info tile
+- add bluetooth and wifi timeout features
+- add support for global cleartext penalties
+- fix battery percent flickering in status bar
+- add back black qs header
 
 _____________________________________________________________________________________________________________________________
 
 <Please don't copy older changelogs. They are for reference.>
 
 Older Changelogs:
+
+April 6th 2021: Version 2.5-Grovyle
+
+- April security patch
+- import oos volume bar icons
+- add lineage powerhal to custom interfaces
+- update gapps package
+- a new default wallpaper
+- add back shapeshift walls with new ones for 11
+- add extreme battery saver
+- small changes to settingsintelligence ui
+- add dynamic volte/vowifi icons
+- improve refresh rate switching
+- add time spent in app from wellbeing to app info page
+- redesign recents buttons
+- improve alert slider dialog animations
+- use md2 icons for gaming mode
+- new shapeshift clock
+- increase scrim to 90% in launcher light theme
+- show temperature in battery info page
+- add animation to battery header in battery info page
+- add per app sensor blocking
+- add fps info tile
+- add bluetooth and wifi timeout features
+- add support for global cleartext penalties
+- fix battery percent flickering in status bar
+- add back black qs header
 
 ---------------------------------------------------------------------------------------------------------------------
 
