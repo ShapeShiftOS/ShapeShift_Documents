@@ -72,7 +72,7 @@ Download ROM here for your device![/COLOR][/U][/B][/SIZE]
 
 [SIZE="3"][B]Magisk:[/B] [URL]https://github.com/topjohnwu/magisk_files/tree/canary[/URL]
 [B]Telegram Support Group:[/B] [url]https://t.me/shapeshiftos[/url]
-[B]Telegram Announcements Channel:[/B] [url]https://t.me/shapeshiftosofficial[/url][/SIZE]
+[B]Telegram Announcements Channel:[/B] [url]https://t.me/shapeshiftoschannel[/url][/SIZE]
 
 [img]https://i.imgur.com/8pYDk8Z.png[/img]
 
