@@ -13,6 +13,4 @@ Getting Official Maintainership for ShapeShiftOS
 
 >> Join our [**Telegram Channel**](https://t.me/shapeshiftoschannel) and our  [**Telegram group**](https://t.me/shapeshiftos)
 
->> To publish builds use our Template : [**ShapeShiftOS XDA Template**](https://github.com/ShapeShiftOS/ShapeShift_Documents/blob/slave/Android11-xda/Template.txt)
-
 ----------------------------
