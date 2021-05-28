@@ -54,13 +54,12 @@ If your device supports Dash Charging, add this to your overlays overlay/framewo
 >>        <!-- Whether device has dash charging support -->
 >>        <bool name="config_hasDashCharger">true</bool>
 
+# Warp Charging
 
-# VOOC charging
+If your device supports Warp Charging, add this to your overlays overlay/frameworks/base/core/res/res/values/config.xml:
 
-If your device supports VOOC charging, add this to your overlays overlay/frameworks/base/core/res/res/values/config.xml:
-
->>        <!-- Whether device has vooc charging support -->
->>        <bool name="config_hasVoocCharger">true</bool>
+>>        <!-- Whether device has warp charging support -->
+>>        <bool name="config_hasWarpCharger">true</bool>
 
 # Smart Charging
 
