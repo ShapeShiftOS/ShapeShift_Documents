@@ -9,6 +9,18 @@ Add to your device tree's device.mk or common.mk
 >>           PRODUCT_BOARD_PLATFORM := (board name, ex. trinket, msmnile, sdm845)
 >>           PRODUCT_USES_QCOM_HARDWARE := true
 
+
+# Blur
+
+You can simply use props to enable blur on your device. However, we have a flag to enable blur by default which you can use if you choose to do so. Blur is shown as an option in display settings for all devices and is disabled by default. To enable this option by default:
+
+Add to your device tree's device.mk or common.mk
+>>           TARGET_USES_BLUR := true
+
+# Parts
+
+These are REQUIRED commits which MUST be in your device tree if you have a parts implementation. One commit adds [**haptic feedback to switches**](https://github.com/ShapeShiftOS-Devices/device_oneplus_sdm845-common/commit/f80cfd9f04d0eec42432bb6d4294090a6160857d) and the other moves the parts section from the [**Settings dashboard to the system section**](https://github.com/ShapeShiftOS-Devices/device_oneplus_sdm845-common/commit/0abca4bfa6b10c3c4a20036b471623bad0391d39).
+
 # Notch hiding
 
 If you have a device with a notch, add this to your overlay's overlay/frameworks/base/core/res/res/values/config.xml:
