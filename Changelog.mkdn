@@ -111,6 +111,10 @@ May 16th 2021: Version 2.6-Sceptile
 - fixed tiled volume panel not showing on left side for devices with left side volume buttons
 - fixed storage manager crash in settings
 
+---------------------------------------------------------------------------------------------------------------------
+
+
+
 April 6th 2021: Version 2.5-Grovyle
 
 - April security patch
