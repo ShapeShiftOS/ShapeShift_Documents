@@ -29,7 +29,7 @@ Source Changelog:
 - add alarm and wakelock blocker to developer options
 - add simpledeviceconfig
 - add option to use lte icon instead of 4g
-- add unlimited high quality storage to google photos (spoofed to Marlin)
+- add unlimited original quality storage to google photos (spoofed to Marlin)
 - add Polish translations to ShapeShifter and Settings
 - add option to change face unlock method on lockscreen
 - add option to automatically enable aggressive battery saver when battery saver is on
@@ -84,7 +84,7 @@ August 8th 2021: Version 2.7-Solosis
 - add alarm and wakelock blocker to developer options
 - add simpledeviceconfig
 - add option to use lte icon instead of 4g
-- add unlimited high quality storage to google photos (spoofed to Marlin)
+- add unlimited original quality storage to google photos (spoofed to Marlin)
 - add Polish translations to ShapeShifter and Settings
 - add option to change face unlock method on lockscreen
 - add option to automatically enable aggressive battery saver when battery saver is on
