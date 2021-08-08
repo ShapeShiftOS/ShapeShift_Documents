@@ -3,61 +3,111 @@ ________________________________________________________________________________
 
 Source Changelog: 
 
-- May security patch
-- redesign dark mode page in settings
-- redesign batterymeter in settings
-- redesign settings homepage
-- redesign storage page in settings
-- redesign volte/vowifi icon (with dynamic sim support)
-- redesign prebuilt accent picker
-- add app hide feature to launcher
-- add optional android 12 style qs tile tint
-- add redhat display font package
-- add LineageOS off screen gestures
-- add bouncy scrollview to settings homepage
-- use oos vibration and silent icon in status bar
-- use accent color for default user avatar
-- add option to instantly lock app on closing
-- add option to use transparent qs header
-- add double tap power to use torch on screen off
-- add animated fod icon
-- add cutout force full screen feature
-- add  qs quick pull-down option
-- add option to enable high refresh rate during battery saver
-- allow setting different maximum and minimum refresh rate
-- add increasing ringing feature
-- add miui volume panel
-- add notification ticker in statusbar option
-- add option to show clipboard toasts for only important alerts
-- merged LA.QSSI.11.0.r1-11100.01-qssi.0 into telephony repos
-- hide fps info tile if unsupported
-- improve about phone UI
-- improve FOD animation hiding and performance
-- improve UI of sound settings
-- improve qs data usage
-- removed arrow from dock in launcher
-- import settings entity headers from oos
-- save screenrecorder settings on each launch
-- fixed face removal when disabling security
-- fixed some status bar padding issues
-- fixed default value of fod pressed state
-- fixed auto always on display summary
-- fixed full-screen keyboard in landscape
-- fixed preview for shapeshift clock
-- fixed applock 15 second auto-lock timer
-- fixed aosp expanded volume panel with swift installer
-- fixed some padding issues with centre type clock
-- fixed some typeclock translations (Spanish and Polish)
-- fixed "Lock after screen timeout" setting
-- fixed a crash in settings for fod devices
-- fixed tiled volume panel not showing on left side for devices with left side volume buttons
-- fixed storage manager crash in settings
-
+- August security patch
+- redesign settings dashboard
+- redesign vowifi icon from scratch
+- redesign pocket mode view
+- redesign launcher settings page
+- redesign cards in ShapeShifter
+- fixed vowifi and volte icon slot detection
+- add A12 inspired clock
+- add animated fod icon picker
+- add static fod icon picker from gallery
+- add dark theme styles
+- add settings homepage dividers customization
+- add settings dashboard icons customization
+- add aospa volume panel to options
+- add shapeshift volume panel to options
+- add unlinked notification support to custom volume panels and fixed infinite expanding
+- add option to choose preferred refresh rate
+- add icon size picker in launcher
+- add lockscreen wallpaper blur slider
+- add haptic feedback to switches
+- add support for one shot auto-brightness 
+- add ripple effect to recents buttons
+- add smart charging indication to lockscreen and settings
+- add alarm and wakelock blocker to developer options
+- add simpledeviceconfig
+- add option to use lte icon instead of 4g
+- add unlimited high quality storage to google photos (spoofed to Marlin)
+- add Polish translations to ShapeShifter and Settings
+- add option to change face unlock method on lockscreen
+- add option to automatically enable aggressive battery saver when battery saver is on
+- add option to use media artwork on QS media controls
+- add oxygenos system icon pack (oos icons are no longer default)
+- add a silent notification when a screenshot is taken with actions to delete or edit the screenshot
+- disable FOD when strong authentication is required
+- show bluetooth battery level for all devices
+- switched to hastebin for logs
+- fixed recents crash on third party launchers
+- fixed some padding issues with left aligned clocks
+- fixed folder text color in launcher in light theme
+- fixed accent color preview default state and color
+- fixed several accent color inconsistencies across the system
+- fixed FOD position when display cutout is hidden
+- fixed applocker not working from notifications
+- fixed all qs bugs in landscape
+- fixed few issues with blur in launcher
+- fixed font inconsistencies across system
+- updated gapps
 _____________________________________________________________________________________________________________________________
 
 <Please don't copy older changelogs. They are for reference.>
 
 Older Changelogs:
+
+August 8th 2021: Version 2.7-Solosis
+
+- August security patch
+- redesign settings dashboard
+- redesign vowifi icon from scratch
+- redesign pocket mode view
+- redesign launcher settings page
+- redesign cards in ShapeShifter
+- fixed vowifi and volte icon slot detection
+- add A12 inspired clock
+- add animated fod icon picker
+- add static fod icon picker from gallery
+- add dark theme styles
+- add settings homepage dividers customization
+- add settings dashboard icons customization
+- add aospa volume panel to options
+- add shapeshift volume panel to options
+- add unlinked notification support to custom volume panels and fixed infinite expanding
+- add option to choose preferred refresh rate
+- add icon size picker in launcher
+- add lockscreen wallpaper blur slider
+- add haptic feedback to switches
+- add support for one shot auto-brightness 
+- add ripple effect to recents buttons
+- add smart charging indication to lockscreen and settings
+- add alarm and wakelock blocker to developer options
+- add simpledeviceconfig
+- add option to use lte icon instead of 4g
+- add unlimited high quality storage to google photos (spoofed to Marlin)
+- add Polish translations to ShapeShifter and Settings
+- add option to change face unlock method on lockscreen
+- add option to automatically enable aggressive battery saver when battery saver is on
+- add option to use media artwork on QS media controls
+- add oxygenos system icon pack (oos icons are no longer default)
+- add a silent notification when a screenshot is taken with actions to delete or edit the screenshot
+- disable FOD when strong authentication is required
+- show bluetooth battery level for all devices
+- switched to hastebin for logs
+- fixed recents crash on third party launchers
+- fixed some padding issues with left aligned clocks
+- fixed folder text color in launcher in light theme
+- fixed accent color preview default state and color
+- fixed several accent color inconsistencies across the system
+- fixed FOD position when display cutout is hidden
+- fixed applocker not working from notifications
+- fixed all qs bugs in landscape
+- fixed few issues with blur in launcher
+- fixed font inconsistencies across system
+- updated gapps
+
+---------------------------------------------------------------------------------------------------------------------
+
 
 May 16th 2021: Version 2.6-Sceptile
 
