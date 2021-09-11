@@ -5,19 +5,19 @@ Source Changelog:
 
 - August security patch
 - redesign settings dashboard
-- redesign vowifi icon from scratch
+- redesign VoWiFi icon from scratch
 - redesign pocket mode view
 - redesign launcher settings page
 - redesign cards in ShapeShifter
 - fixed vowifi and volte icon slot detection
 - add A12 inspired clock
-- add animated fod icon picker
-- add static fod icon picker from gallery
+- add animated FOD icon picker
+- add static FOD icon picker from gallery
 - add dark theme styles
 - add settings homepage dividers customization
 - add settings dashboard icons customization
-- add aospa volume panel to options
-- add shapeshift volume panel to options
+- add AOSPA volume panel to options
+- add ShapeShift volume panel to options
 - add unlinked notification support to custom volume panels and fixed infinite expanding
 - add option to choose preferred refresh rate
 - add icon size picker in launcher
@@ -27,18 +27,18 @@ Source Changelog:
 - add ripple effect to recents buttons
 - add smart charging indication to lockscreen and settings
 - add alarm and wakelock blocker to developer options
-- add simpledeviceconfig
-- add option to use lte icon instead of 4g
+- add SimpleDeviceConfig
+- add option to use LTE icon instead of 4G
 - add unlimited original quality storage to google photos (spoofed to Marlin)
 - add Polish translations to ShapeShifter and Settings
 - add option to change face unlock method on lockscreen
 - add option to automatically enable aggressive battery saver when battery saver is on
 - add option to use media artwork on QS media controls
-- add oxygenos system icon pack (oos icons are no longer default)
+- add OxygenOS system icon pack (OOS icons are no longer default)
 - add a silent notification when a screenshot is taken with actions to delete or edit the screenshot
 - disable FOD when strong authentication is required
-- show bluetooth battery level for all devices
-- switched to hastebin for logs
+- show Bluetooth battery level for all devices
+- switched to Hastebin for logs
 - fixed recents crash on third party launchers
 - fixed some padding issues with left aligned clocks
 - fixed folder text color in launcher in light theme
@@ -46,10 +46,10 @@ Source Changelog:
 - fixed several accent color inconsistencies across the system
 - fixed FOD position when display cutout is hidden
 - fixed applocker not working from notifications
-- fixed all qs bugs in landscape
+- fixed all QS bugs in landscape
 - fixed few issues with blur in launcher
 - fixed font inconsistencies across system
-- updated gapps
+- updated GApps
 _____________________________________________________________________________________________________________________________
 
 <Please don't copy older changelogs. They are for reference.>
@@ -60,19 +60,19 @@ August 8th 2021: Version 2.7-Solosis
 
 - August security patch
 - redesign settings dashboard
-- redesign vowifi icon from scratch
+- redesign VoWiFi icon from scratch
 - redesign pocket mode view
 - redesign launcher settings page
 - redesign cards in ShapeShifter
 - fixed vowifi and volte icon slot detection
 - add A12 inspired clock
-- add animated fod icon picker
-- add static fod icon picker from gallery
+- add animated FOD icon picker
+- add static FOD icon picker from gallery
 - add dark theme styles
 - add settings homepage dividers customization
 - add settings dashboard icons customization
-- add aospa volume panel to options
-- add shapeshift volume panel to options
+- add AOSPA volume panel to options
+- add ShapeShift volume panel to options
 - add unlinked notification support to custom volume panels and fixed infinite expanding
 - add option to choose preferred refresh rate
 - add icon size picker in launcher
@@ -82,18 +82,18 @@ August 8th 2021: Version 2.7-Solosis
 - add ripple effect to recents buttons
 - add smart charging indication to lockscreen and settings
 - add alarm and wakelock blocker to developer options
-- add simpledeviceconfig
-- add option to use lte icon instead of 4g
+- add SimpleDeviceConfig
+- add option to use LTE icon instead of 4G
 - add unlimited original quality storage to google photos (spoofed to Marlin)
 - add Polish translations to ShapeShifter and Settings
 - add option to change face unlock method on lockscreen
 - add option to automatically enable aggressive battery saver when battery saver is on
 - add option to use media artwork on QS media controls
-- add oxygenos system icon pack (oos icons are no longer default)
+- add OxygenOS system icon pack (OOS icons are no longer default)
 - add a silent notification when a screenshot is taken with actions to delete or edit the screenshot
 - disable FOD when strong authentication is required
-- show bluetooth battery level for all devices
-- switched to hastebin for logs
+- show Bluetooth battery level for all devices
+- switched to Hastebin for logs
 - fixed recents crash on third party launchers
 - fixed some padding issues with left aligned clocks
 - fixed folder text color in launcher in light theme
@@ -101,10 +101,10 @@ August 8th 2021: Version 2.7-Solosis
 - fixed several accent color inconsistencies across the system
 - fixed FOD position when display cutout is hidden
 - fixed applocker not working from notifications
-- fixed all qs bugs in landscape
+- fixed all QS bugs in landscape
 - fixed few issues with blur in launcher
 - fixed font inconsistencies across system
-- updated gapps
+- updated GApps
 
 ---------------------------------------------------------------------------------------------------------------------
 
@@ -162,8 +162,6 @@ May 16th 2021: Version 2.6-Sceptile
 - fixed storage manager crash in settings
 
 ---------------------------------------------------------------------------------------------------------------------
-
-
 
 April 6th 2021: Version 2.5-Grovyle
 
@@ -554,7 +552,7 @@ September 12th 2020: Version 1.2-Blaziken
 - Completely refactor screen off FOD implementation
 - Redesign settings icon 
 - Changelog in about phone
-- COmpletely refactored about page in ShapeSHifter with useful device specific links 
+- Completely refactored about page in ShapeShifter with useful device specific links 
 - New Realme, ROG and Mi 10 FOD animations
 - Toggle to disable night light on FOD
 - Improve FOD speed with lesser transition animations and hardware acceleration
