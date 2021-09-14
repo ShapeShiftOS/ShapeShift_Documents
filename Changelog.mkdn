@@ -3,58 +3,57 @@ ________________________________________________________________________________
 
 Source Changelog: 
 
-- August security patch
-- redesign settings dashboard
-- redesign VoWiFi icon from scratch
-- redesign pocket mode view
-- redesign launcher settings page
-- redesign cards in ShapeShifter
-- fixed vowifi and volte icon slot detection
-- add A12 inspired clock
-- add animated FOD icon picker
-- add static FOD icon picker from gallery
-- add dark theme styles
-- add settings homepage dividers customization
-- add settings dashboard icons customization
-- add AOSPA volume panel to options
-- add ShapeShift volume panel to options
-- add unlinked notification support to custom volume panels and fixed infinite expanding
-- add option to choose preferred refresh rate
-- add icon size picker in launcher
-- add lockscreen wallpaper blur slider
-- add haptic feedback to switches
-- add support for one shot auto-brightness 
-- add ripple effect to recents buttons
-- add smart charging indication to lockscreen and settings
-- add alarm and wakelock blocker to developer options
-- add SimpleDeviceConfig
-- add option to use LTE icon instead of 4G
-- add unlimited original quality storage to google photos (spoofed to Marlin)
-- add Polish translations to ShapeShifter and Settings
-- add option to change face unlock method on lockscreen
-- add option to automatically enable aggressive battery saver when battery saver is on
-- add option to use media artwork on QS media controls
-- add OxygenOS system icon pack (OOS icons are no longer default)
-- add a silent notification when a screenshot is taken with actions to delete or edit the screenshot
-- disable FOD when strong authentication is required
-- show Bluetooth battery level for all devices
-- switched to Hastebin for logs
-- fixed recents crash on third party launchers
-- fixed some padding issues with left aligned clocks
-- fixed folder text color in launcher in light theme
-- fixed accent color preview default state and color
-- fixed several accent color inconsistencies across the system
-- fixed FOD position when display cutout is hidden
-- fixed applocker not working from notifications
-- fixed all QS bugs in landscape
-- fixed few issues with blur in launcher
-- fixed font inconsistencies across system
-- updated GApps
+- September security patch
+- add bouncy scrolling to all sections in settings
+- add scrollable image preview for display color modes
+- add option to use multicolored QS tiles
+- add option to enable secure powermenu 
+- add option to disable ADB in gaming mode
+- invert powermenu colors in light and dark theme
+- use last saved location if location is turned off for TwilightService (scheduling night light, AOD etc)
+- show a toast before restarting launcher after changing a setting
+- improve screenrecorder UI
+- improve user icon in settings
+- improve sensors off tile
+- redesign action buttons UI in settings
+- switch to OOS 10 FOD icon by default
+- fixed overlays resetting on reboot
+- fixed invisible edit icon in some parts of settings when OOS pack is used
+- fixed number of columns in QS tile editor
+- fixed a few issues with long screenshots
+- fixed CTS match
+- fixed default values of gesture settings 
+
 _____________________________________________________________________________________________________________________________
 
 <Please don't copy older changelogs. They are for reference.>
 
 Older Changelogs:
+
+September 14th 2021: Version 2.8-Duosion
+
+- September security patch
+- add bouncy scrolling to all sections in settings
+- add scrollable image preview for display color modes
+- add option to use multicolored QS tiles
+- add option to enable secure powermenu 
+- add option to disable ADB in gaming mode
+- invert powermenu colors in light and dark theme
+- use last saved location if location is turned off for TwilightService (scheduling night light, AOD etc)
+- show a toast before restarting launcher after changing a setting
+- improve screenrecorder UI
+- improve user icon in settings
+- improve sensors off tile
+- redesign action buttons UI in settings
+- switch to OOS 10 FOD icon by default
+- fixed overlays resetting on reboot
+- fixed invisible edit icon in some parts of settings when OOS pack is used
+- fixed number of columns in QS tile editor
+- fixed a few issues with long screenshots
+- fixed CTS match
+- fixed default values of gesture settings
+-----------------------------------------------------------------------------------------------------------------
+
 
 August 8th 2021: Version 2.7-Solosis
 
