@@ -11,7 +11,7 @@ This set of rules are required to be considered before applying for maintainersh
 - **Furthermore**, ensure you properly read the Charter as well so that you are aware of what is expected from you.
 - **You must maintain your own trees.** Taking someone else's tree and adding only a ShapeShift-ify commit which only affects ROM branding makefiles will lead to an immediate reject. If you do not maintain your own trees, please come back later. All trees must be pushed to our devices organisation.
 
-If any questions, let us know on [our telegram chat](https://t.me/shapeshiftoschat). You can also request to get in contact with the admins here so that you can get to know more about the application process. Please be sure to include the following information:
+If any questions, let us know on [our telegram chat](https://t.me/shapeshiftos). You can also request to get in contact with the admins here so that you can get to know more about the application process. Please be sure to include the following information:
 - **Device, Common, Vendor, Kernel and any other extra trees you need.**
 - **Your Sourceforge and GitHub account usernames.**
 - **Device bugs.**
@@ -54,7 +54,7 @@ Before you apply to add your device into our list of official devices, you shoul
 
 - The device mustn't have the need for a lot of patches, and if so, it must be in accordance with the following listing below.
 
-- The device's kernel must be up to date with the latest patches from [kernel.org](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/). If you are unsure of how to do this, check out [android-linux-stable](https://github.com/android-linux-stable) or contact [Nathan Chancellor](https://nathanchance.me).
+- The device's kernel must be up to date with the latest patches from [kernel.org](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/). If you are unsure of how to do this, check out [android-linux-stable](https://github.com/android-linux-stable).
 
 - If there are commits that are needed in repos other than the device-specific ones, they must:
 
