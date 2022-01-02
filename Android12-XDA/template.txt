@@ -1,0 +1,67 @@
+Title: [ROM][12.0_r18][UNOFFICIAL][STABLE] ShapeShiftOS [DEVICE_CODENAME]
+
+-----------------------------------------------------------------------------
+
+[CENTER][img]https://i.imgur.com/okVsJEJ.jpg[/img]
+
+
+/*
+ * Your warranty is now void.
+ *
+ * I am not responsible for bricked devices, dead SD cards,
+ * thermonuclear war, or you getting fired because the alarm app failed. Please
+ * do some research if you have any concerns about features included in this ROM
+ * before flashing it! YOU are choosing to make these modifications, and if
+ * you point the finger at me for messing up your device, I will laugh at you.
+ */
+
+[SIZE="3"][B]
+Read the whole OP! Be respectful to each other and don't ask for ETAs, it's considered as being rude![/B][/SIZE]
+
+[SIZE="4"][B]
+ShapeShiftOS is a custom-rom based on AOSP that aims to provide a different user interface and experience than any other ROM on the market.[/B][/SIZE]
+
+[img]https://i.imgur.com/v0CAvNp.png[/img]
+
+[SIZE="3"][B][U]Here are the features on top of AOSP! We aim to add important features that we think should be here and also what you think. For the addition of more tweaks or features, head on to our Telegram community and post the list of features that you want! Features with commits will be more helpful![/B][/U][/SIZE]
+
+[B]
+- Plain AOSP for now
+[/B]
+
+[img]https://i.imgur.com/oMz7G2n.png[/img]
+
+[SIZE="4"][B][U][COLOR="DeepSkyBlue"]
+Download ROM here for your device![/COLOR][/U][/B][/SIZE]
+
+[color=navy][URL="Put the link here"][COLOR="RoyalBlue"][SIZE="3"][B]DOWNLOAD[/B][/SIZE][/COLOR] [/URL][/color]
+
+[SIZE="3"][B]Magisk:[/B] [URL]https://github.com/topjohnwu/magisk_files/tree/canary[/URL]
+[B]Telegram Support Group:[/B] [url]https://t.me/shapeshiftos[/url]
+[B]Telegram Announcements Channel:[/B] [url]https://t.me/shapeshiftoschannel[/url][/SIZE]
+
+[img]https://i.imgur.com/8pYDk8Z.png[/img]
+
+[B][SIZE="4"]Want to try this awesomeness?[/SIZE][/B]
+
+Write the instructions for your device here
+
+[img]https://i.imgur.com/Bgj5RHog.png[/img]
+
+[B][SIZE="4"]People behind this amazing ROM![/SIZE][/B]
+
+[B][SIZE="3"]Ashutosh Sundresh ([url]https://github.com/AshutoshSundresh[/url])
+MezzLasha ([url]https://github.com/mezzlasha[/url])
+LineageOS ([url]https://github.com/LineageOS[/url])
+Crdroid ([url]https://github.com/crdroidandroid[/url])
+Pixel Experience ([url]https://github.com/PixelExperience[/url])
+Nitrogen Project ([url]https://github.com/nitrogen-project[/url])
+Omnirom ([url]https://github.com/omnirom[/url])
+And all the other Developers, Testers, Donators and Users.[/SIZE][/B]
+
+
+[color=navy][URL="Put your kernel source here"][COLOR="RoyalBlue"][SIZE="3"][B]Kernel Source[/B][/SIZE][/COLOR] [/URL][/color]
+
+//Thread template designed by MezzLasha and Ashutosh Sundresh//
+
+[/CENTER]
