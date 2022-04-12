@@ -1,6 +1,6 @@
 # Shift_Documentation
-XDA Thread Template and Some other stuff
 
+<p align="center"> <img src="https://i.imgur.com/Dp5ql6K.png"> </p>
 
 -----------------------------------------	
 Getting Official Maintainership for ShapeShiftOS
