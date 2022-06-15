@@ -26,7 +26,7 @@ Source Changelog:
 
 _____________________________________________________________________________________________________________________________
 
-<Please don't copy older changelogs. They are for reference.>
+>>Please don't copy older changelogs. They are for reference.
 
 Older Changelogs:
 
