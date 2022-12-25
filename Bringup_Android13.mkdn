@@ -1,0 +1,2 @@
+# Preparing ShapeShiftOS ROM for devices
+- For building ShapeShiftOS for your device for Android 12, the lunch target is lunch ssos_devicecodename. Of course, we do require some additional overlays in your tree to make the best out of ShapeShiftOS. 
